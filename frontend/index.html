@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Intelligence Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="config.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>BI PORTAL</span>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="/" class="nav-link active">
+                        <i class="fa-solid fa-table"></i>
+                        <span>Sales Data</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="adminLink" style="display:none;">
+                    <a href="/admin" class="nav-link">
+                        <i class="fa-solid fa-user-shield"></i>
+                        <span>Admin Panel</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dashboard" class="nav-link">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Web Metrics</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/ai-insights" class="nav-link">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Insights</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="/powerbi" class="btn btn-primary" style="justify-content:center;background:rgba(99,102,241,0.1);color:var(--primary);">
+                    <i class="fa-solid fa-gauge"></i>
+                    <span>PowerBI Dashboard</span>
+                </a>
+                <button class="btn btn-danger" style="width:100%;justify-content:center;" onclick="logout()">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+                <div>
+                    <h1>Strategic Sales Repository</h1>
+                    <p class="text-muted">Real-time access to global sales performance and metrics</p>
+                </div>
+            </div>
+
+            <div class="card" style="padding:0;">
+                <div style="padding:20px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+                    <div style="position:relative;">
+                        <i class="fa-solid fa-search" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);"></i>
+                        <input type="text" id="searchBox" placeholder="Search sales data..." style="padding-left:36px;width:300px;" onkeyup="loadData(true)">
+                    </div>
+                </div>
+
+                <div style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Product</th>
+                                <th>Category</th>
+                                <th>Region</th>
+                                <th>City</th>
+                                <th>Qty</th>
+                                <th>Sales</th>
+                                <th>Profit</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+
+                <div style="padding:20px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+                    <span class="text-muted" id="pageInfo">Page 1 of 1</span>
+                    <div style="display:flex;gap:8px;">
+                        <button id="prevBtn" class="btn btn-primary" onclick="changePage(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button id="nextBtn" class="btn btn-primary" onclick="changePage(1)"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentPage = 1;
+        let limit = 10;
+        let totalPages = 1;
+
+        window.onload = function() {
+            let user = JSON.parse(localStorage.getItem("user"));
+            if (!user) { window.location.href = "/login"; return; }
+            if (user.role === "admin") document.getElementById("adminLink").style.display = "block";
+            loadData();
+        };
+
+        async function loadData(resetPage = false) {
+            if (resetPage) currentPage = 1;
+            const search = document.getElementById("searchBox").value;
+            try {
+                let res = await fetch(`${CONFIG.API_BASE_URL}/sales?page=${currentPage}&limit=${limit}&q=${encodeURIComponent(search)}`);
+                let result = await res.json();
+                totalPages = Math.ceil(result.total / limit) || 1;
+                document.getElementById("pageInfo").innerText = `Page ${currentPage} of ${totalPages}`;
+                document.getElementById("prevBtn").disabled = currentPage === 1;
+                document.getElementById("nextBtn").disabled = currentPage >= totalPages;
+                renderTable(result.data);
+            } catch(e) { console.error(e); }
+        }
+
+        function renderTable(data) {
+            let html = "";
+            data.forEach(d => {
+                html += `<tr>
+                    <td>#${d.id}</td>
+                    <td style="font-weight:600;">${d.product_name}</td>
+                    <td>${d.category}</td>
+                    <td>${d.region}</td>
+                    <td>${d.city}</td>
+                    <td>${d.quantity}</td>
+                    <td>₹${parseFloat(d.sales_amount).toFixed(2)}</td>
+                    <td style="font-weight:600;">₹${parseFloat(d.profit).toFixed(2)}</td>
+                </tr>`;
+            });
+            document.getElementById("tableBody").innerHTML = html;
+        }
+
+        function changePage(step) {
+            currentPage += step;
+            loadData();
+        }
+
+        function logout() { localStorage.removeItem("user"); window.location.href = "/login"; }
+    </script>
+</body>
+</html>

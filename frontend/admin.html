@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Analytics Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="config.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span>BI PORTAL</span>
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        <i class="fa-solid fa-table"></i>
+                        <span>Sales Data</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/admin" class="nav-link active">
+                        <i class="fa-solid fa-user-shield"></i>
+                        <span>Admin Panel</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/dashboard" class="nav-link">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Web Metrics</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/ai-insights" class="nav-link">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Insights</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <a href="/powerbi" class="btn btn-primary" style="justify-content:center;background:rgba(99,102,241,0.1);color:var(--primary);">
+                    <i class="fa-solid fa-gauge"></i>
+                    <span>PowerBI Dashboard</span>
+                </a>
+                <button class="btn btn-danger" style="width:100%;justify-content:center;" onclick="logout()">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+                <div>
+                    <h1>Operational Intelligence Console</h1>
+                    <p class="text-muted">Refine, organize, and oversee your enterprise datasets with precision</p>
+                </div>
+
+                <div class="actions" style="display:flex;gap:12px;">
+                    <button class="btn btn-primary" onclick="openForm()">
+                        <i class="fa-solid fa-plus"></i> New Record
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" style="padding:0;">
+                <div style="padding:20px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+                    <div style="position:relative;">
+                        <i class="fa-solid fa-search" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);"></i>
+                        <input type="text" id="searchBox" placeholder="Filter records..." style="padding-left:36px;width:250px;" onkeyup="loadData(null, true)">
+                    </div>
+                </div>
+
+                <div style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Product</th>
+                                <th>Category</th>
+                                <th>Region</th>
+                                <th>City</th>
+                                <th>Qty</th>
+                                <th>Sales</th>
+                                <th>Profit</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+
+                <div style="padding:20px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+                    <span class="text-muted" id="pageInfo">Page 1 of 1</span>
+
+                    <div style="display:flex;gap:8px;">
+                        <button id="prevBtn" class="btn btn-primary" style="padding:8px 16px;" onclick="changePage(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+
+                        <button id="nextBtn" class="btn btn-primary" style="padding:8px 16px;" onclick="changePage(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="formModal">
+        <div class="modal-content">
+            <div class="card" style="margin-bottom:0;">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+                    <h2 id="formTitle">Add New Sale</h2>
+
+                    <button style="background:transparent;color:var(--text-muted);border:none;cursor:pointer;font-size:20px;" onclick="closeForm()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <form onsubmit="handleFormSubmit(event)">
+                    <input type="hidden" id="entry-id">
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Product Name</label>
+                            <input type="text" id="prod-name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Category</label>
+                            <select id="prod-cat" required>
+                                <option value="" disabled selected>Select Category</option>
+                                <option value="Electronics">Electronics</option>
+                                <option value="Office Supplies">Office Supplies</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Sub Category</label>
+                            <select id="prod-subcat" required>
+                                <option value="" disabled selected>Select Sub Category</option>
+                                <option value="Computing">Computing</option>
+                                <option value="Gadgets">Gadgets</option>
+                                <option value="Imaging">Imaging</option>
+                                <option value="Peripherals">Peripherals</option>
+                                <option value="Office Devices">Office Devices</option>
+                                <option value="Accessories">Accessories</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Region</label>
+                            <select id="prod-reg" required>
+                                <option value="" disabled selected>Select Region</option>
+                                <option value="Central">Central</option>
+                                <option value="East">East</option>
+                                <option value="North">North</option>
+                                <option value="South">South</option>
+                                <option value="West">West</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>City</label>
+                            <select id="prod-city" required>
+                                <option value="" disabled selected>Select City</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Pune">Pune</option>
+                                <option value="UNA">UNA</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Customer Name</label>
+                            <input type="text" id="prod-customer" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Quantity</label>
+                            <input type="number" id="prod-qty" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Sales Amount</label>
+                            <input type="number" step="0.01" id="prod-sales" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Profit</label>
+                            <input type="number" step="0.01" id="prod-profit" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Discount</label>
+                            <input type="number" step="0.01" id="prod-discount">
+                        </div>
+
+                        <div class="form-group">
+                            <label>User ID</label>
+                            <input type="number" id="prod-userid" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="date" id="prod-date" required>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;justify-content:flex-end;gap:12px;margin-top:24px;">
+                        <button type="button" class="btn" onclick="closeForm()">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save Record</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let editMode = false;
+        let localData = [];
+        let currentPage = 1;
+        let limit = 10;
+        let totalPages = 1;
+
+        window.onload = function () {
+            let user = JSON.parse(localStorage.getItem("user"));
+            if (!user || user.role !== "admin") {
+                window.location.href = "/login";
+                return;
+            }
+            loadData();
+        };
+
+        async function loadData(editId = null, resetPage = false) {
+            if (resetPage) currentPage = 1;
+            const search = document.getElementById("searchBox").value;
+
+            try {
+                let url = `${CONFIG.API_BASE_URL}/sales?page=${currentPage}&limit=${limit}&q=${encodeURIComponent(search)}`;
+                let res = await fetch(url);
+                let result = await res.json();
+
+                if (!res.ok) throw new Error(result.error || "Error loading data");
+
+                localData = result.data || [];
+                totalPages = Math.ceil((result.total || 0) / limit) || 1;
+
+                document.getElementById("pageInfo").innerText = `Page ${currentPage} of ${totalPages}`;
+                document.getElementById("prevBtn").disabled = currentPage === 1;
+                document.getElementById("nextBtn").disabled = currentPage >= totalPages;
+
+                renderTable(localData);
+                if (editId) prepareEdit(editId);
+            } catch (err) {
+                console.error(err);
+                document.getElementById("tableBody").innerHTML = `<tr><td colspan="9" style="text-align:center;color:red;padding:40px;">Error loading data ❌ Check Backend.</td></tr>`;
+            }
+        }
+
+        function renderTable(data) {
+            let html = "";
+            data.forEach((d) => {
+                const salesAmount = parseFloat(d.sales_amount || 0).toFixed(2);
+                const profitAmount = parseFloat(d.profit || 0).toFixed(2);
+                html += `
+                <tr>
+                    <td>#${d.id}</td>
+                    <td style="font-weight:600;">${d.product_name || ""}</td>
+                    <td>${d.category || ""}</td>
+                    <td>${d.region || ""}</td>
+                    <td>${d.city || ""}</td>
+                    <td>${d.quantity || ""}</td>
+                    <td>₹${salesAmount}</td>
+                    <td style="font-weight:600;">₹${profitAmount}</td>
+                    <td>
+                        <div style="display:flex;gap:8px;">
+                            <button class="btn" style="padding:6px;" onclick="prepareEdit('${d.id}')"><i class="fa-solid fa-pen"></i></button>
+                            <button class="btn" style="padding:6px;" onclick="deleteData('${d.id}')"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>`;
+            });
+            document.getElementById("tableBody").innerHTML = html;
+        }
+
+        function changePage(step) {
+            if (currentPage + step >= 1 && currentPage + step <= totalPages) {
+                currentPage += step;
+                loadData();
+            }
+        }
+
+        function openForm() {
+            editMode = false;
+            document.getElementById("formTitle").innerText = "Add New Sale";
+            document.getElementById("formModal").style.display = "flex";
+            document.getElementById("entry-id").value = "";
+            document.querySelector("form").reset();
+        }
+
+        function closeForm() {
+            document.getElementById("formModal").style.display = "none";
+            document.querySelector("form").reset();
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+            let id = document.getElementById("entry-id").value;
+            let data = {
+                product_name: document.getElementById("prod-name").value,
+                category: document.getElementById("prod-cat").value,
+                sub_category: document.getElementById("prod-subcat").value,
+                region: document.getElementById("prod-reg").value,
+                city: document.getElementById("prod-city").value,
+                customer_name: document.getElementById("prod-customer").value,
+                quantity: parseInt(document.getElementById("prod-qty").value),
+                date: document.getElementById("prod-date").value,
+                sales_amount: parseFloat(document.getElementById("prod-sales").value),
+                profit: parseFloat(document.getElementById("prod-profit").value),
+                discount: parseFloat(document.getElementById("prod-discount").value || 0),
+                user_id: parseInt(document.getElementById("prod-userid").value)
+            };
+
+            let url = editMode ? `${CONFIG.API_BASE_URL}/update_sales/${id}` : `${CONFIG.API_BASE_URL}/add_sales`;
+            let method = editMode ? "PUT" : "POST";
+
+            try {
+                let res = await fetch(url, {
+                    method: method,
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(data)
+                });
+                let result = await res.json();
+                if (res.ok) {
+                    closeForm();
+                    loadData();
+                    Swal.fire({ icon: "success", title: editMode ? "Record Updated" : "Record Added", text: result.message, timer: 2000, showConfirmButton: false });
+                } else {
+                    Swal.fire("Error", result.error, "error");
+                }
+            } catch (err) {
+                Swal.fire("Error", "There was an error saving the record.", "error");
+            }
+        }
+
+        function prepareEdit(id) {
+            let d = localData.find(x => String(x.id) === String(id));
+            if (!d) return;
+            editMode = true;
+            document.getElementById("formTitle").innerText = "Edit Sale Record";
+            document.getElementById("formModal").style.display = "flex";
+            document.getElementById("entry-id").value = d.id;
+            document.getElementById("prod-name").value = d.product_name || "";
+            document.getElementById("prod-cat").value = d.category || "";
+            document.getElementById("prod-subcat").value = d.sub_category || "";
+            document.getElementById("prod-reg").value = d.region || "";
+            document.getElementById("prod-city").value = d.city || "";
+            document.getElementById("prod-customer").value = d.customer_name || "";
+            document.getElementById("prod-qty").value = d.quantity || "";
+            document.getElementById("prod-sales").value = d.sales_amount || "";
+            document.getElementById("prod-profit").value = d.profit || "";
+            document.getElementById("prod-discount").value = d.discount || 0;
+            document.getElementById("prod-userid").value = d.user_id || "";
+            document.getElementById("prod-date").value = d.date || "";
+        }
+
+        async function deleteData(id) {
+            Swal.fire({ title: "Are you sure?", text: "You are about to delete this record.", icon: "warning", showCancelButton: true, confirmButtonText: "Yes, delete it!" })
+            .then(async (result) => {
+                if (result.isConfirmed) {
+                    try {
+                        let res = await fetch(`${CONFIG.API_BASE_URL}/delete_sales/${id}`, { method: "DELETE" });
+                        if (res.ok) {
+                            loadData();
+                            Swal.fire("Deleted!", "The record has been deleted.", "success");
+                        } else {
+                            Swal.fire("Error", "Failed to delete record", "error");
+                        }
+                    } catch (err) {
+                        Swal.fire("Error", "Failed to delete record", "error");
+                    }
+                }
+            });
+        }
+
+        function logout() {
+            localStorage.removeItem("user");
+            window.location.href = "/login";
+        }
+    </script>
+</body>
+</html>
