@@ -5,6 +5,10 @@ import os
 import certifi
 import re
 from bson import ObjectId
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(
     __name__,
