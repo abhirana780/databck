@@ -32,9 +32,9 @@ DB_NAME = os.environ.get("DB_NAME", "bi_portal")
 try:
     client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
     db = client[DB_NAME]
-    print(f"[OK] Connected to MongoDB Atlas: {DB_NAME}")
+    print(f"✅ Connected to MongoDB Atlas: {DB_NAME}")
 except Exception as e:
-    print(f"[ERROR] MongoDB Connection Error: {e}")
+    print(f"❌ MongoDB Connection Error: {e}")
 
 # Helper to serialize Mongo docs
 def serialize(doc):
