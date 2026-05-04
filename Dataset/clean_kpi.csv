@@ -1,0 +1,985 @@
+id,total_sales,average_sales,monthly_growth_percent,top_product,best_region,month
+1,143773.23,4210.3,-12.91,Headphones,Central,May
+4,83267.49,360.57,-14.2,Laptop,West ,September
+5,146299.81,4163.45,-2.51,Mobile,East,February
+6,144652.26,2651.74,13.1,Headphones,West,February
+7,179834.27,3891.44,-0.42,Monitor,North,apr
+8,14637.43,1399.4,8.35,Mobile,North,June
+10,95850.43,2913.54,-3.49,Mobile, SOUTH,September
+11,22961.29,3708.04,31.36,Mobile,West,NOV
+12,146235.09,2963.68,0.92,Tablet,West,September
+14,157391.92,2014.83,3.94,Tablet,Central,Jan
+15,32264.38,3309.26,37.68,Keyboard,East,MAR
+16,23844.24,4403.39,11.74,Keyboard,West ,MAR
+18,99392.6,507.73,13.01,Tablet,West ,NOV
+20,40999.9,1065.11,2.94,Mobile,South,Jan
+21,154128.25,465.08,24.66,Mobile,West,apr
+25,33936.37,4742.38,2.12,Printer,North,Aug
+26,25963.37,1260.98,24.87,Camera,East,May
+27,186443.65,2758.95,9.84,Mouse,East,jul
+28,39154.72,4994.8,-13.89,Smartwatch,East,June
+30,148253.59,4378.16,38.37,Monitor,east,Oct
+31,19013.45,917.67,31.07,Smartwatch,East,jul
+32,49740.13,2501.94,-9.51,Smartwatch,north ,February
+33,6543.11,3672.83,-18.1,Smartwatch,West,apr
+35,105411.29,631.21,-5.05,Laptop, SOUTH,Aug
+36,41492.62,2638.18,-16.27,Mouse,West ,May
+38,45236.24,4634.07,-12.56,Monitor,Central,Aug
+39,179690.29,4858.43,-16.11,Headphones,West ,February
+41,155702.1,547.3,-1.38,Printer,South,September
+42,112583.62,1238.5,-2.19,Keyboard,East,February
+43,143739.22,1319.13,4.48,Tablet,east,Oct
+44,126907.55,4598.03,-10.15,Camera,East,Oct
+46,113590.15,2636.76,27.43,Laptop,Central,Aug
+49,16680.0,3487.7,35.12,Headphones, SOUTH,jul
+51,152111.7,3901.03,34.0,Tablet,Central,apr
+52,87942.15,2823.93,9.76,Headphones, SOUTH,Aug
+54,13491.46,879.69,21.18,Headphones, SOUTH,MAR
+55,154047.29,1562.22,39.19,Tablet,north ,apr
+56,121388.86,4506.09,25.3,Camera,South,May
+59,27453.4,4080.63,19.2,Camera,West,Oct
+60,29690.96,3215.95,-15.21,Smartwatch,West,Oct
+61,125545.49,372.46,0.76,Printer,East,jul
+63,114488.63,2093.94,-8.24,Smartwatch,East,February
+64,82314.51,942.28,10.06,Keyboard,North,February
+67,121908.61,316.83,21.71,Smartwatch,South,February
+69,160681.1,3546.97,-5.21,Smartwatch,North,February
+71,114684.62,3897.59,19.74,Mouse,North,May
+73,105909.05,4185.12,11.05,Printer,East,Aug
+74,71422.33,4993.96,28.34,Monitor,South,Jan
+75,196755.18,4995.01,-4.19,Mobile,north ,May
+77,165847.7,3247.94,-12.22,Camera,South,MAR
+78,76377.22,3705.14,19.88,Mobile,South,May
+80,158617.7,4192.91,30.5,Headphones,north ,Oct
+82,183314.99,3736.06,34.13,Tablet,South,apr
+83,104133.65,230.57,-12.78,Headphones,South,MAR
+85,65394.58,4585.77,35.39,Tablet,east,June
+87,17386.3,4978.25,-10.9,Monitor,east,dec
+88,106205.08,2297.95,37.08,Smartwatch,West,jul
+90,32336.97,4940.26,18.87,Headphones,West ,May
+91,17230.25,448.14,22.34,Smartwatch,east,Oct
+92,16185.72,1328.34,-7.11,Laptop,West ,apr
+93,90215.85,2759.18,10.7,Tablet,South,jul
+95,167796.28,2756.67,27.62,Tablet,West ,February
+97,51184.31,2914.07,31.65,Smartwatch,East,jul
+98,15053.15,1651.05,27.42,Monitor,West ,MAR
+99,146650.88,1860.22,12.38,Monitor,East,NOV
+100,38682.28,873.8,-10.01,Monitor, SOUTH,September
+101,183618.03,2122.22,-15.07,Monitor,South,dec
+103,127191.64,2247.19,15.09,Tablet,South,Jan
+106,198493.83,3324.43,32.33,Camera, SOUTH,apr
+108,-75859.53,4250.22,35.33,Mobile,East,September
+109,22254.26,3710.37,-1.41,Mouse, SOUTH,May
+110,135242.72,2945.32,14.57,Tablet,South,Jan
+111,-146180.47,2008.05,-2.6,Laptop,West ,Oct
+112,159516.98,3877.88,25.24,Headphones,east,dec
+113,17020.53,569.55,39.97,Printer,West ,February
+114,82888.86,860.15,13.51,Tablet, SOUTH,Oct
+115,173451.49,2005.21,39.27,Mouse,North,Oct
+117,142644.6,1798.25,15.07,Tablet,North,May
+119,127889.22,758.2,35.07,Monitor,West ,February
+120,76743.08,1560.1,-2.49,Laptop,West,dec
+121,118934.29,1927.63,4.39,Mouse, SOUTH,MAR
+123,93508.38,3373.72,37.78,Keyboard,West ,jul
+126,107491.62,2288.03,17.53,Camera,South,September
+127,93177.39,1713.29,-6.28,Headphones,South,jul
+128,99995.84,933.27,15.93,Camera, SOUTH,September
+129,84757.48,3643.09,-17.47,Keyboard,West,NOV
+130,33497.93,3383.06,19.72,Printer,east,NOV
+131,83317.14,4665.32,28.07,Monitor,South,May
+133,70207.3,3059.26,0.9,Mouse,North,dec
+134,28790.09,1810.54,9.94,Printer, SOUTH,Aug
+137,17665.66,4994.91,31.36,Camera,East,dec
+138,28166.87,2292.78,-8.28,Smartwatch,East,February
+140,39104.28,856.62,-10.52,Camera,North,apr
+141,189755.24,1504.3,36.65,Camera,East,September
+142,84767.93,4406.46,-8.89,Smartwatch,North,Oct
+143,136066.34,902.04,-5.91,Camera,east,February
+144,54985.72,246.16,-4.16,Headphones,north ,apr
+145,122520.54,3717.63,-13.98,Keyboard, SOUTH,June
+146,123412.35,1942.28,-6.32,Keyboard,North,February
+147,68179.02,4722.59,20.16,Monitor, SOUTH,Oct
+149,183670.99,3093.27,-4.02,Monitor,East,dec
+152,114881.44,3164.02,21.19,Headphones,West ,February
+153,83009.07,4320.85,39.23,Camera, SOUTH,September
+154,56026.93,3407.15,28.8,Monitor,South,Aug
+156,130542.86,3821.28,37.83,Smartwatch,North,February
+158,179032.69,737.69,12.09,Laptop,West ,June
+161,144109.82,1835.82,2.98,Laptop,West ,Aug
+165,170023.94,1934.21,38.28,Laptop,North,Oct
+167,84655.01,1761.57,15.31,Printer,West ,MAR
+168,-93562.99,1102.68,7.24,Mouse,West,May
+170,187872.72,447.9,-16.01,Monitor,East,September
+171,129372.24,727.01,25.12,Headphones,West,Jan
+172,77108.16,4605.43,4.9,Keyboard, SOUTH,apr
+173,23906.01,1810.08,35.28,Laptop,North,June
+174,152664.39,2809.28,-12.62,Monitor,West ,apr
+175,66817.96,1161.81,-3.66,Mobile,north ,February
+177,157009.65,3115.83,34.64,Printer,East,February
+180,184140.48,1332.04,30.62,Tablet,West ,jul
+181,116404.24,1764.59,27.05,Mouse,Central,Jan
+182,185434.54,2770.65,19.59,Laptop,North,apr
+183,49813.77,3047.94,30.28,Headphones,West,MAR
+184,168892.29,846.34,-8.82,Keyboard,South,jul
+185,35528.8,506.64,-19.03,Monitor,East,May
+186,30572.12,4463.77,-4.93,Keyboard,West,NOV
+187,171483.82,235.47,0.98,Printer, SOUTH,June
+188,55718.99,3179.16,23.64,Monitor,North,Oct
+190,164398.43,4554.47,-6.01,Headphones,West,September
+192,-165289.35,4632.51,-10.44,Mouse,West ,September
+195,72071.2,2320.18,13.03,Tablet,East,Jan
+197,41799.55,3014.28,1.31,Camera,West,apr
+199,50414.46,458.78,-15.27,Tablet,West,May
+203,88890.42,3907.11,6.16,Smartwatch,east,September
+204,67715.78,2495.08,17.91,Headphones,north ,apr
+205,78742.26,4501.45,-11.99,Keyboard,North,February
+206,139984.31,493.13,10.9,Mobile,north ,apr
+207,139910.78,4060.79,-0.25,Monitor,East,MAR
+209,166495.32,3507.99,14.23,Headphones,north ,June
+211,36014.28,991.25,-8.97,Headphones,West ,February
+212,111095.59,677.92,17.96,Smartwatch,East,dec
+213,51531.41,4236.33,1.64,Camera,East,September
+214,142375.41,3161.8,23.94,Mouse,Central,Oct
+215,139035.49,2185.4,-3.81,Laptop,Central,February
+216,72667.63,1324.89,37.93,Mouse,north ,June
+217,114013.02,336.26,-11.06,Mouse,east,May
+218,36972.45,3405.95,36.26,Monitor,north ,February
+219,192405.5,3621.8,18.76,Laptop,South,June
+221,17304.95,2987.1,19.48,Smartwatch,North,June
+222,146962.83,868.47,33.94,Laptop,North,apr
+226,177219.72,414.08,-4.05,Camera,West ,Aug
+228,122933.49,2100.05,-17.32,Laptop,South,June
+229,93588.88,3520.24,-3.89,Monitor, SOUTH,MAR
+230,140021.43,3666.62,-5.89,Monitor,east,jul
+231,173057.22,3871.63,23.57,Keyboard,West,apr
+232,46010.35,4296.76,24.77,Keyboard,east,May
+233,146527.54,4227.1,4.18,Printer,north ,jul
+234,105433.32,1904.67,-4.68,Camera,North,June
+236,-192106.58,2476.48,-14.41,Camera,East,February
+237,106848.5,924.6,26.52,Mouse,South,May
+238,-45868.64,3426.26,7.9,Keyboard, SOUTH,Oct
+241,191006.11,4513.03,-14.61,Laptop, SOUTH,Jan
+242,171665.12,3220.46,38.31,Tablet,West ,September
+245,149406.68,378.31,-6.2,Mobile, SOUTH,Jan
+246,29349.07,467.22,26.03,Mobile,North,February
+247,8720.46,3516.41,35.48,Monitor,East,June
+248,156551.99,2140.78,20.83,Laptop,Central,Oct
+249,84554.47,4666.42,21.41,Camera,north ,Jan
+250,30353.73,4212.5,5.77,Mobile,east,Jan
+255,84848.97,2700.22,28.07,Headphones,North,Jan
+256,181595.86,2434.77,-18.45,Camera,Central,dec
+258,119828.73,4407.09,1.77,Keyboard,South,NOV
+259,119462.35,1544.44,1.73,Mouse,North,apr
+261,20163.12,4358.59,-17.18,Headphones,South,Oct
+263,160862.63,1376.73,-4.0,Mouse,North,Aug
+265,173967.81,2910.9,7.95,Keyboard,West ,September
+266,151156.34,2426.79,8.8,Smartwatch, SOUTH,September
+267,117293.4,3275.18,-17.69,Mobile,Central,MAR
+268,122359.44,4811.54,36.57,Mouse, SOUTH,June
+269,59934.3,3293.85,3.05,Mouse,West,apr
+272,131098.67,1231.26,7.95,Tablet,Central,dec
+273,173115.26,3616.18,37.9,Keyboard,Central,apr
+275,196402.43,1062.42,19.25,Printer,West,September
+276,87704.1,2756.1,36.44,Mobile,West,MAR
+281,94029.33,4386.18,26.28,Mouse,South,NOV
+283,177861.99,4848.15,31.65,Keyboard,West,jul
+285,179611.48,3307.1,1.86,Camera,East,dec
+286,42519.11,2925.98,29.48,Camera,east,Oct
+287,89943.9,3358.48,20.32,Monitor,North,Aug
+293,53268.33,4351.98,-16.61,Mouse,West,MAR
+295,28255.17,3332.54,7.9,Tablet,east,NOV
+296,9053.3,3945.66,26.2,Monitor,North,February
+298,31333.59,1775.94,-14.91,Headphones,North,Oct
+300,17211.93,1398.83,6.21,Laptop,West ,Oct
+301,125935.63,882.89,26.54,Tablet,north ,NOV
+302,29721.66,4334.51,1.71,Mobile,West,September
+303,129097.31,824.71,-16.04,Smartwatch, SOUTH,jul
+304,150209.49,1148.07,21.19,Laptop,West,February
+305,143039.23,2694.89,12.08,Camera,North,dec
+306,153012.71,2908.85,2.06,Laptop,West ,MAR
+307,31708.93,812.54,32.16,Laptop, SOUTH,Jan
+308,152710.39,3765.92,21.98,Keyboard,North,Jan
+309,10167.21,1249.44,2.77,Laptop,East,jul
+311,195772.92,2585.06,14.8,Smartwatch,West ,MAR
+312,81855.88,2563.42,-15.23,Monitor,East,jul
+313,125728.62,2148.09,4.5,Keyboard, SOUTH,jul
+316,143981.94,1710.74,-3.97,Camera,West ,apr
+317,25097.07,1786.51,19.29,Printer,East,September
+318,89456.66,2038.94,31.0,Tablet, SOUTH,NOV
+320,44671.21,4989.12,6.18,Printer,East,September
+322,25489.19,2667.68,-16.22,Camera,South,May
+325,144781.3,2990.28,17.74,Laptop,Central,apr
+326,188568.04,4415.87,39.48,Smartwatch,East,September
+327,125901.02,3579.67,24.75,Mobile,South,jul
+328,21408.62,4948.62,26.05,Monitor,North,Aug
+331,-190660.5,1142.0,-7.28,Camera,South,May
+332,166724.64,1271.48,32.61,Camera,north ,June
+333,152520.96,3143.1,-11.14,Smartwatch,West,September
+334,167401.52,1745.73,20.17,Camera,Central,apr
+335,124482.82,2839.05,33.23,Tablet,South,June
+336,148355.0,487.5,16.54,Laptop,Central,September
+337,128659.19,229.63,14.8,Camera,east,Oct
+338,55788.66,4552.95,4.96,Tablet,South,Oct
+339,182942.37,2279.89,18.93,Printer,South,MAR
+340,106959.74,3986.68,14.78,Smartwatch,West,Oct
+341,149330.11,3390.56,23.0,Laptop,East,May
+342,90501.87,1052.31,10.29,Monitor,Central,jul
+346,135681.87,490.76,21.86,Headphones,West,Aug
+348,161719.93,4062.35,-1.52,Mobile, SOUTH,MAR
+349,35711.79,1742.6,37.23,Headphones,East,MAR
+350,160700.04,213.98,25.83,Tablet,West,dec
+351,92409.58,3491.48,22.42,Printer,north ,MAR
+352,131981.43,917.26,-7.26,Smartwatch,north ,dec
+353,23823.44,3492.31,1.85,Keyboard,East,June
+355,80832.0,1972.99,3.77,Mouse,East,MAR
+357,62619.05,2889.12,29.08,Smartwatch,South,dec
+359,44362.94,301.24,-0.46,Smartwatch,Central,apr
+362,178414.66,4325.26,32.24,Mobile,east,June
+363,102809.41,2120.84,-2.07,Printer,East,Jan
+365,32182.94,2445.56,37.03,Smartwatch,Central,February
+366,21699.9,2141.09,2.87,Mobile,East,Jan
+367,96635.85,4523.87,26.16,Mobile,north ,apr
+368,185614.16,2637.56,27.67,Tablet,South,February
+369,100065.04,3250.91,32.72,Smartwatch,north ,May
+370,-35921.39,935.9,-10.75,Headphones,West ,February
+372,33427.09,2692.6,20.48,Keyboard,South,February
+374,169615.02,232.5,2.78,Monitor,Central,apr
+375,22917.36,4902.72,-4.3,Tablet,east,apr
+376,191375.94,1867.19,-9.02,Tablet,north ,Aug
+377,39208.84,3493.24,3.26,Tablet,east,February
+378,44870.39,2315.02,-19.99,Laptop,East,MAR
+381,193953.66,3442.04,20.06,Tablet,north ,Jan
+382,133085.67,1000.97,38.99,Keyboard,South,February
+383,94935.77,1363.16,12.89,Monitor, SOUTH,Oct
+387,118892.71,1967.74,-15.32,Mobile,east,Aug
+388,122442.57,2777.34,-1.34,Mouse,South,Aug
+389,126377.99,2074.83,-12.9,Headphones,North,NOV
+390,37091.25,3390.89,2.63,Printer,East,May
+391,7444.21,387.12,-1.88,Monitor,East,Jan
+393,39008.0,3722.16,5.03,Keyboard,West ,June
+394,104034.06,366.41,23.51,Mobile,South,MAR
+395,157985.13,1611.37,11.0,Headphones,West ,September
+396,166471.06,3364.71,19.2,Printer,South,apr
+400,7303.57,210.11,24.05,Camera, SOUTH,Oct
+401,60583.4,4801.63,25.63,Tablet,West,NOV
+402,38605.28,2997.8,-14.91,Printer,north ,February
+407,13811.61,665.37,-14.39,Smartwatch,north ,February
+408,50247.53,407.94,29.83,Camera, SOUTH,NOV
+409,68335.24,2288.28,26.14,Smartwatch,West,NOV
+410,104162.2,4572.02,0.78,Mouse,north ,Jan
+411,92692.06,281.38,37.31,Printer, SOUTH,Jan
+412,100024.52,3511.82,4.83,Headphones,Central,MAR
+413,173739.41,3191.45,-15.06,Mobile,West,NOV
+418,131103.26,605.76,16.69,Monitor,North,May
+421,194695.23,2718.58,15.06,Keyboard,South,June
+424,45468.79,4300.57,37.77,Mobile,east,jul
+425,196372.71,3331.59,11.98,Keyboard,north ,Oct
+428,169534.83,676.51,39.66,Laptop,Central,May
+429,32552.72,1449.64,21.47,Laptop,north ,February
+430,135416.31,4230.55,39.56,Headphones,east,NOV
+432,145210.96,1913.93,-2.32,Laptop,East,NOV
+435,47757.52,3913.94,8.11,Mouse,West,Jan
+437,138516.54,1321.1,0.25,Keyboard,West,June
+438,98317.45,1680.99,-5.22,Printer,North,February
+439,39768.28,470.71,-9.35,Monitor,north ,Oct
+440,155901.24,404.28,16.35,Mouse,South,dec
+441,86597.79,1274.12,2.66,Printer, SOUTH,jul
+442,-20110.96,3101.2,10.51,Camera,South,Jan
+443,37412.3,1085.4,-10.46,Keyboard,Central,Aug
+444,9666.79,2130.87,38.35,Monitor,West,June
+445,178253.41,2549.9,19.23,Keyboard,North,September
+447,97512.77,3115.35,2.06,Tablet,East,Oct
+451,181146.52,1008.42,10.62,Laptop,Central,February
+452,52379.01,1317.5,38.77,Camera,South,Jan
+453,72643.7,229.5,39.31,Mouse,West,NOV
+454,178272.82,2164.2,25.66,Headphones, SOUTH,September
+456,132157.0,1769.93,37.12,Tablet, SOUTH,February
+459,94442.88,2333.23,2.74,Printer,East,Jan
+461,83283.34,1407.16,7.05,Smartwatch,East,Jan
+462,109817.79,2372.29,16.15,Tablet,East,Aug
+463,73183.24,1774.13,9.5,Mouse,East,June
+464,12804.18,2535.25,23.27,Tablet,West,Oct
+465,122603.25,4563.87,23.65,Mobile,South,MAR
+466,118041.48,2073.55,20.25,Camera,Central,Oct
+467,67181.41,1107.44,4.28,Keyboard,Central,September
+468,184437.42,2994.71,-16.49,Printer,West ,February
+469,165345.92,349.42,-2.13,Tablet,east,September
+470,50773.23,4751.4,34.21,Smartwatch,South,June
+472,92791.71,2403.94,4.67,Mobile,West,MAR
+473,162013.53,3213.29,13.07,Headphones,West ,jul
+475,19963.21,4392.45,-16.27,Mouse,Central,February
+476,177887.56,4244.41,-18.69,Smartwatch,East,MAR
+477,53528.75,2458.19,33.38,Printer,Central,apr
+480,44639.21,1763.53,28.95,Printer,north ,MAR
+481,161190.09,2705.49,38.85,Tablet, SOUTH,February
+482,14931.86,212.65,34.22,Mobile, SOUTH,Oct
+483,108753.49,4487.75,-18.08,Headphones,South,jul
+484,9514.15,3810.96,7.11,Camera,North,Jan
+485,64807.01,2460.38,-10.5,Headphones,West,Aug
+486,55058.76,2133.02,-2.43,Headphones,Central,Jan
+487,100853.68,702.43,1.66,Laptop,east,dec
+488,94100.18,2933.27,-8.19,Camera,East,dec
+490,81892.82,1747.88,-3.63,Tablet,East,apr
+491,92949.42,4026.73,24.09,Headphones,West,Aug
+492,-97314.95,353.96,17.46,Keyboard, SOUTH,May
+493,70035.2,4076.51,34.88,Smartwatch,West,dec
+495,18374.67,3629.5,-0.88,Camera,north ,September
+496,146385.99,1578.43,8.22,Smartwatch, SOUTH,Jan
+498,86068.22,668.23,24.67,Keyboard,West ,apr
+499,149062.44,1366.04,5.0,Headphones,South,Jan
+500,113743.58,1839.01,28.48,Monitor,Central,June
+502,25504.44,1495.99,9.0,Mouse,Central,June
+503,184915.22,3097.69,10.96,Printer,Central,dec
+504,5863.78,2108.86,6.06,Laptop,West,Aug
+505,196133.78,3582.92,-8.9,Printer,East,MAR
+507,79054.43,504.85,21.14,Smartwatch,North,jul
+508,132633.4,2734.31,-16.83,Tablet,Central,September
+511,82201.4,203.96,25.64,Camera,North,apr
+513,153026.57,2559.95,-13.0,Smartwatch,north ,Oct
+516,34187.21,2588.65,25.06,Camera,east,June
+518,17429.11,443.92,31.81,Monitor,north ,jul
+519,125084.54,4696.56,8.33,Mouse,West,September
+520,63361.41,2001.28,12.27,Keyboard,east,MAR
+521,197538.2,1991.53,-14.03,Tablet,North,dec
+523,27791.55,3216.2,27.61,Monitor,West,Aug
+524,143398.6,2657.11,-10.62,Mouse,Central,dec
+526,117517.54,3918.16,10.83,Laptop,South,Jan
+527,38898.58,2486.59,24.25,Keyboard,east,jul
+530,14860.91,2711.67,32.52,Tablet,East,Aug
+531,9573.55,1126.81,7.22,Headphones,East,June
+532,11159.3,3889.93,18.76,Printer,South,NOV
+533,117908.11,3170.95,23.16,Keyboard,South,MAR
+535,196258.27,474.51,13.32,Keyboard,north ,Oct
+536,91776.55,4657.48,11.11,Smartwatch, SOUTH,dec
+538,171069.43,639.14,37.76,Monitor,East,dec
+542,194105.47,4656.6,19.46,Camera,South,September
+543,59882.04,4892.67,32.57,Monitor,West,February
+544,37535.87,2714.41,7.26,Mobile,West ,dec
+546,37230.18,4410.05,-4.84,Camera,east,dec
+547,186191.89,1148.98,-16.84,Monitor,West ,NOV
+548,9596.35,830.98,39.02,Keyboard, SOUTH,September
+550,199207.78,1100.12,-19.48,Keyboard,Central,February
+551,133063.54,4172.12,3.04,Mobile,West ,September
+552,136573.26,2847.98,5.18,Camera,South,Jan
+554,54438.31,4060.65,-10.22,Mouse,West,June
+556,43655.27,3865.74,-3.13,Mouse,West ,June
+558,139503.29,3958.47,11.82,Camera,West,Aug
+560,136314.71,1488.23,20.18,Headphones,West,dec
+561,198233.83,880.99,0.27,Keyboard, SOUTH,June
+562,137162.02,321.69,11.34,Headphones,South,Oct
+563,23825.33,2492.5,38.16,Mobile,Central,dec
+564,87314.79,4047.9,2.54,Headphones,West ,jul
+566,186924.31,1002.91,11.46,Mouse,Central,apr
+567,151071.58,4633.62,6.32,Keyboard,north ,Oct
+568,58981.37,4024.46,-3.63,Headphones,north ,NOV
+569,194373.14,4830.91,4.38,Smartwatch,north ,February
+570,60151.01,3987.84,17.02,Tablet,North,May
+571,94039.15,3047.86,16.17,Monitor,East,Jan
+572,112273.14,1087.32,1.88,Monitor,South,dec
+574,81195.1,327.96,37.57,Headphones,West,MAR
+576,31434.26,2590.91,33.01,Mouse,East,Oct
+577,56949.42,489.97,29.44,Printer,north ,May
+578,162918.28,4168.63,14.7,Printer,West ,Aug
+579,93702.87,2034.7,-7.89,Smartwatch,East,Aug
+580,117546.02,3903.88,9.3,Mouse,East,June
+582,35912.8,3500.63,39.18,Camera,West ,NOV
+583,6254.05,766.42,22.73,Printer,West,Oct
+586,156250.1,873.31,2.21,Headphones,Central,Aug
+588,136557.7,4822.39,9.69,Printer,north ,May
+590,62545.07,3685.99,-13.14,Headphones,north ,February
+591,-108005.32,4428.6,-16.94,Smartwatch,West,jul
+592,93434.7,4832.35,33.94,Monitor,East,June
+596,-132302.26,1954.24,3.64,Smartwatch,Central,NOV
+598,54753.66,3089.13,27.83,Mouse,east,NOV
+599,183196.38,1204.08,15.2,Smartwatch,Central,May
+600,10291.73,4113.83,34.95,Mouse, SOUTH,June
+601,166870.28,2807.28,-9.41,Smartwatch,East,May
+602,65760.39,1145.83,13.01,Tablet,West,jul
+606,14732.25,754.29,8.84,Printer,East,apr
+607,186737.36,4833.04,-10.61,Mobile,North,apr
+608,111172.02,3380.2,31.88,Printer,East,MAR
+609,148383.9,3484.2,7.7,Keyboard,West ,Oct
+610,123928.08,2150.43,21.19,Monitor,South,February
+611,5459.55,4107.29,-4.52,Smartwatch,east,Aug
+612,90139.78,3029.38,9.28,Headphones,east,February
+613,45945.39,3510.35,4.32,Tablet,north ,apr
+614,110061.66,2965.6,-2.19,Monitor,Central,Oct
+615,155615.08,3273.57,11.89,Printer,South,jul
+617,135433.19,1721.35,14.8,Camera,east,jul
+619,13133.12,3742.68,14.39,Mouse,South,Aug
+620,108006.37,4615.22,-18.29,Mouse,West ,jul
+621,103233.63,4215.17,-19.4,Smartwatch, SOUTH,MAR
+622,136884.21,2075.9,7.57,Smartwatch,north ,NOV
+624,83434.25,4202.36,24.08,Mobile,East,June
+626,72255.29,705.35,-7.36,Keyboard,North,apr
+627,187872.22,1462.76,0.85,Mobile,East,Jan
+628,125318.06,1327.41,32.52,Headphones,West,jul
+629,-127131.98,2702.24,-0.6,Headphones,East,Jan
+633,177915.44,2537.7,29.8,Laptop,West,May
+634,152177.97,2609.81,29.59,Monitor,North,apr
+635,91858.45,4551.14,29.39,Camera,South,Jan
+637,29158.95,4423.1,5.27,Tablet,East,apr
+639,169799.93,1356.72,-13.01,Mouse,north ,Jan
+640,153137.59,3333.4,34.01,Laptop,north ,February
+642,150482.87,4007.68,-4.87,Keyboard,east,NOV
+643,46576.2,3535.23,28.85,Printer,North,dec
+644,67558.5,3874.61,27.31,Monitor,West ,Jan
+645,93325.51,322.77,-10.77,Tablet, SOUTH,NOV
+647,195381.33,4489.67,-0.3,Smartwatch, SOUTH,June
+648,64827.18,2084.48,-15.39,Camera,West,June
+649,84012.31,1949.3,20.59,Headphones,north ,Jan
+651,111412.18,1670.85,26.29,Keyboard, SOUTH,June
+652,121678.07,2234.21,28.09,Keyboard,North,February
+653,97063.8,1647.61,32.67,Monitor, SOUTH,jul
+654,118193.05,1831.69,-4.26,Headphones, SOUTH,Aug
+655,75268.5,909.78,4.77,Laptop,North,Aug
+656,41704.58,2166.83,10.93,Laptop,West ,apr
+657,152288.18,3034.37,-14.86,Smartwatch,north ,Jan
+659,34561.22,4361.07,0.93,Headphones,West,Aug
+660,161456.75,3688.39,27.95,Smartwatch,east,Jan
+661,123965.85,2056.41,-6.52,Camera,West ,dec
+665,140574.91,2819.83,0.44,Monitor,Central,September
+666,21395.68,956.6,-16.76,Tablet,West,jul
+667,75775.29,2904.8,6.56,Mouse,West ,June
+668,14217.51,1772.16,9.97,Mobile,north ,Jan
+669,-54329.87,1468.0,9.69,Headphones, SOUTH,Jan
+670,96178.65,3118.44,-12.28,Monitor,West ,Aug
+671,30711.37,1787.81,9.88,Keyboard,North,Oct
+672,153223.9,210.13,28.57,Camera,east,dec
+673,8964.21,1361.61,36.03,Smartwatch,Central,apr
+674,29566.37,3252.81,16.35,Laptop, SOUTH,Aug
+675,-126832.39,2096.3,14.7,Printer,Central,apr
+678,140609.92,238.04,33.37,Headphones,North,Oct
+679,54123.34,3553.49,-13.92,Mouse,South,May
+680,40317.63,4741.55,7.17,Smartwatch,West,February
+681,98042.97,1953.73,-14.98,Headphones,Central,February
+682,68654.26,2416.22,-6.16,Monitor,East,MAR
+684,109471.25,3212.94,22.5,Monitor,Central,Oct
+685,86560.92,3777.09,4.94,Printer,West ,February
+686,68393.92,4263.95,24.99,Smartwatch, SOUTH,May
+687,85969.1,4922.25,24.97,Headphones, SOUTH,MAR
+689,43346.95,2506.72,31.89,Smartwatch,South,NOV
+690,38123.88,2631.81,8.63,Laptop,North,apr
+691,61183.74,1244.75,-7.66,Camera,Central,MAR
+692,189302.67,1007.96,5.04,Mouse,South,apr
+693,110593.17,4325.77,30.81,Keyboard,Central,Jan
+694,175833.35,3681.39,12.83,Tablet,Central,MAR
+695,6312.26,1775.4,4.08,Laptop,north ,May
+696,76016.57,2474.02,22.05,Mobile,West,September
+697,69241.36,1324.38,16.45,Mobile,Central,Aug
+698,49216.74,4524.58,-9.01,Printer,West ,Jan
+699,29556.44,4507.62,36.76,Monitor,East,apr
+701,155495.96,928.15,-0.22,Smartwatch,North,Jan
+703,73006.11,1489.83,3.9,Keyboard,West ,NOV
+704,149406.28,2942.4,33.88,Mouse,north ,MAR
+705,186751.08,3315.1,-0.25,Mobile,North,dec
+706,188509.08,3706.19,19.6,Smartwatch,South,September
+707,125624.64,3497.79,0.42,Tablet,South,September
+708,97447.29,1329.66,-5.76,Monitor,North,NOV
+709,106939.59,4589.49,13.33,Headphones, SOUTH,jul
+711,143192.27,4025.07,36.07,Mouse,Central,Jan
+712,21002.78,238.2,-8.75,Headphones, SOUTH,September
+715,158777.66,2250.46,9.84,Monitor,east,June
+717,31074.76,2219.1,-6.36,Smartwatch,South,February
+718,58540.74,738.02,27.57,Keyboard,north ,Jan
+719,37747.11,2915.67,10.93,Printer,West,dec
+720,62524.87,2508.13,1.05,Laptop,North,NOV
+721,38438.38,3985.73,15.98,Laptop,East,Aug
+723,68481.3,2189.22,32.24,Headphones,North,MAR
+724,77726.73,3621.45,6.68,Keyboard,West,February
+725,152521.04,3129.84,-19.34,Laptop,North,MAR
+728,68123.47,3923.1,-17.44,Mouse,South,NOV
+729,193116.15,4433.99,-6.31,Smartwatch,Central,dec
+730,20034.83,1863.04,7.83,Laptop,north ,June
+732,93986.13,4755.87,11.29,Mouse,east,Oct
+733,91180.23,578.22,18.52,Printer,east,MAR
+734,167339.47,4684.52,-17.63,Smartwatch,East,February
+735,136305.56,4739.81,15.27,Smartwatch,Central,May
+736,150024.09,2674.15,-14.28,Mobile,east,May
+737,121789.5,1451.87,27.39,Tablet,east,June
+738,81346.41,3757.55,-13.99,Camera,South,May
+740,13354.15,3349.81,34.97,Mobile,West ,jul
+741,62775.24,818.61,33.96,Keyboard,north ,NOV
+742,47143.06,3921.04,0.27,Mobile,West ,dec
+743,193683.4,3126.87,6.14,Headphones,East,apr
+744,143637.89,1654.74,-7.83,Monitor,East,Jan
+745,117086.69,4571.11,9.8,Mobile,Central,Jan
+746,60133.89,1436.33,-2.56,Camera,east,May
+747,47965.68,4723.49,5.33,Smartwatch,North,February
+748,188718.72,4945.55,-11.35,Smartwatch, SOUTH,Jan
+750,105930.37,4518.41,-5.44,Monitor,North,jul
+751,196456.43,2009.72,28.19,Camera,Central,June
+752,129500.34,3050.3,36.58,Laptop,East,Oct
+753,100124.83,2371.47,9.52,Headphones,east,dec
+754,186514.28,615.27,-1.26,Mouse,Central,February
+755,165024.73,4512.8,-16.51,Monitor,South,jul
+756,98564.42,1047.35,19.22,Keyboard,east,Oct
+757,148915.14,2262.94,15.41,Headphones,South,NOV
+759,113336.26,1387.3,-15.9,Mobile, SOUTH,Oct
+761,195123.43,782.98,14.41,Mobile,West,MAR
+762,92897.34,4167.96,34.71,Smartwatch,east,February
+763,70492.17,1120.23,24.99,Mouse,east,Aug
+764,56133.79,1406.89,-0.92,Tablet,North,Jan
+765,29142.73,2397.86,-4.92,Headphones,east,Aug
+771,34893.51,4152.93,-3.02,Mouse,east,jul
+773,164795.45,3937.73,39.58,Monitor,Central,September
+774,167790.98,1409.24,-12.87,Keyboard, SOUTH,May
+775,147931.6,4229.44,-13.39,Monitor, SOUTH,Aug
+777,195206.29,2349.92,16.41,Mobile,Central,Aug
+778,27230.12,1697.04,33.44,Smartwatch,north ,September
+780,191003.06,4860.49,32.24,Mouse,South,June
+783,27364.35,4968.24,8.16,Monitor,east,June
+784,76154.79,911.14,-19.78,Keyboard,West,apr
+785,8261.15,4912.7,14.37,Mobile,north ,Jan
+786,67913.08,1235.85,34.91,Headphones,South,May
+787,193263.31,267.18,30.84,Printer,north ,NOV
+788,150842.27,2626.05,37.36,Monitor,East,dec
+789,40985.43,1547.37,-0.23,Laptop, SOUTH,NOV
+790,198841.76,2521.13,-1.34,Mouse,South,dec
+793,182719.68,1186.02,25.2,Laptop,north ,June
+794,181399.35,1202.4,-3.08,Laptop, SOUTH,February
+796,-85589.08,3431.41,18.03,Printer,North,apr
+797,46481.94,4829.67,-8.85,Printer,Central,June
+799,83716.54,3421.91,-12.55,Monitor, SOUTH,NOV
+800,184216.93,3041.43,38.98,Monitor, SOUTH,Oct
+801,59710.86,1171.86,17.36,Monitor,East,Aug
+802,166784.66,3865.52,8.77,Printer,West ,Jan
+803,61526.03,1669.52,33.62,Keyboard, SOUTH,NOV
+804,149489.43,1917.83,-7.61,Mouse,North,February
+805,120926.51,427.91,27.46,Mobile,East,Aug
+806,194252.73,3284.38,39.51,Laptop,Central,Jan
+807,95801.68,538.52,19.35,Mobile,East,apr
+811,104394.82,4123.91,-7.35,Camera,east,NOV
+812,71606.03,4658.82,4.33,Laptop,West,Aug
+813,50511.06,4702.2,-18.07,Printer,South,apr
+817,18409.2,4908.6,-17.47,Camera,South,February
+820,175183.35,4152.75,9.77,Mouse,Central,dec
+821,178002.46,4670.05,25.13,Monitor,West,Aug
+823,69092.75,1303.55,37.75,Smartwatch, SOUTH,February
+825,48084.4,3292.0,7.83,Mouse,east,Aug
+826,35698.48,3915.11,9.6,Smartwatch,East,Oct
+828,52917.14,4413.71,34.17,Camera, SOUTH,June
+829,45079.87,400.43,30.35,Smartwatch,South,MAR
+830,139707.81,1276.65,-11.96,Mouse,East,Oct
+831,6308.97,999.66,32.86,Printer,North,NOV
+833,7191.41,770.74,-0.88,Mouse,Central,September
+834,80837.19,4473.29,33.59,Monitor,east,Aug
+839,8938.22,1061.54,20.26,Headphones,West ,jul
+841,-171642.39,4286.53,-1.18,Keyboard, SOUTH,Jan
+843,130527.44,3483.25,18.23,Headphones,East,apr
+845,82813.13,3447.77,32.6,Printer,east,Aug
+848,141991.35,3286.65,31.07,Monitor, SOUTH,apr
+849,57497.84,3144.02,-7.73,Keyboard,east,Aug
+851,25215.15,4918.72,5.61,Camera, SOUTH,February
+852,42199.84,4119.09,37.87,Camera,West ,February
+854,22118.12,2538.01,-4.32,Camera,West ,February
+856,134254.63,963.08,39.15,Mobile,West ,September
+858,176887.18,1747.86,-1.99,Laptop,East,February
+861,45955.76,4809.55,5.6,Mobile,Central,jul
+862,94380.54,3260.66,9.52,Mouse,East,May
+864,86577.1,296.84,15.01,Mobile,east,apr
+866,94438.68,4906.31,19.9,Monitor, SOUTH,Aug
+867,34317.9,4725.29,12.54,Printer,East,Jan
+868,195807.02,2361.66,-6.7,Printer,north ,apr
+870,127496.38,1938.25,31.98,Headphones,East,Oct
+871,55656.22,1700.98,32.85,Monitor,east,dec
+873,20971.84,2063.79,32.94,Keyboard,north ,MAR
+874,46151.69,3908.93,6.86,Smartwatch,West,May
+875,167604.11,4921.03,-6.87,Smartwatch,East,February
+876,197852.32,3130.35,19.92,Mobile,north ,apr
+877,79331.06,755.12,10.23,Monitor,West,Jan
+878,144100.5,4678.71,16.9,Camera,West,Aug
+880,129183.76,468.27,10.97,Smartwatch,east,February
+881,162929.21,3658.63,11.51,Mobile,West,apr
+883,153565.76,2552.25,29.54,Mouse,West,MAR
+884,122862.96,1749.92,-8.97,Laptop,Central,MAR
+889,183527.09,1190.96,1.83,Printer,West ,February
+890,182639.89,2998.31,-18.37,Headphones,West ,June
+891,154061.99,4996.75,-10.4,Mouse,East,jul
+892,62603.02,1208.25,-1.19,Camera,East,apr
+894,48170.73,220.66,6.6,Headphones,Central,dec
+896,141360.34,2423.92,0.02,Keyboard,east,February
+897,66083.46,2288.8,27.9,Tablet,east,Jan
+899,-165729.27,1499.04,-18.54,Mouse,East,dec
+901,63541.08,4839.24,18.8,Laptop,South,Jan
+903,133612.9,3112.25,-4.23,Tablet,Central,Aug
+905,46091.13,4630.33,33.75,Monitor,North,apr
+908,94768.22,2121.42,2.26,Printer,Central,June
+909,109039.9,2889.17,-13.98,Smartwatch,West ,Jan
+910,197094.53,3677.15,35.75,Laptop,West,Oct
+912,100341.81,4298.19,25.44,Monitor,North,Oct
+913,185908.17,3235.66,37.15,Monitor,east,NOV
+914,96267.17,3945.39,-12.27,Tablet,West ,MAR
+916,102438.54,2857.37,24.18,Monitor,West ,May
+918,49903.18,3210.9,15.53,Laptop,Central,February
+921,100127.97,254.95,-12.2,Printer,North,dec
+922,186268.26,848.64,1.89,Smartwatch, SOUTH,jul
+923,147507.59,1589.17,-5.03,Laptop,South,jul
+924,147510.59,223.22,20.56,Mouse, SOUTH,apr
+925,7518.66,2553.62,24.26,Headphones,West,September
+929,39546.89,3140.84,-6.74,Printer,West,May
+931,190054.16,1401.82,0.48,Mouse,West ,jul
+932,132635.33,973.66,17.58,Monitor,North,apr
+934,17383.23,4690.87,12.5,Laptop,South,September
+935,98079.64,3875.9,26.65,Headphones,South,September
+936,93954.32,2786.35,38.08,Smartwatch,West,apr
+938,40862.48,4928.89,-16.56,Tablet,West,dec
+941,180823.33,1352.61,-5.3,Headphones, SOUTH,May
+943,27896.75,3938.33,38.99,Laptop,South,Oct
+945,49601.67,2977.09,-6.28,Headphones,north ,MAR
+947,145945.34,3114.56,22.91,Tablet,east,Oct
+948,142901.57,2505.81,-1.95,Keyboard,north ,Oct
+949,75806.32,4242.65,7.34,Tablet,Central,February
+950,43616.41,1396.25,7.16,Camera,West ,apr
+951,31698.39,3543.15,38.66,Mouse,North,jul
+952,174510.57,2090.47,-9.86,Mobile, SOUTH,Oct
+953,63453.51,4903.79,23.49,Smartwatch,North,MAR
+956,143507.71,3347.22,14.87,Tablet,north ,June
+957,173603.9,1250.49,27.03,Mobile,West,February
+959,186887.93,3226.74,1.2,Camera, SOUTH,NOV
+962,125749.63,1264.29,-6.41,Keyboard,East,jul
+963,25984.33,4101.16,-15.29,Laptop,east,May
+964,85109.05,971.28,20.99,Camera,West,jul
+968,51318.48,2159.1,36.54,Headphones, SOUTH,Aug
+969,178812.56,1356.74,9.02,Laptop, SOUTH,May
+970,37714.96,614.2,16.84,Monitor,West,Jan
+972,32373.88,3005.75,-5.45,Mouse,South,jul
+975,60426.94,424.61,10.63,Tablet,West,MAR
+976,53620.14,3091.14,-5.04,Monitor,east,May
+978,14757.19,4417.89,-6.96,Camera,West,September
+980,62461.04,3019.09,-5.49,Mouse,West,Jan
+981,150146.93,410.11,0.25,Tablet,West ,June
+982,129615.88,4986.64,8.24,Smartwatch,east,MAR
+983,113665.24,4182.86,-12.14,Tablet, SOUTH,Oct
+984,-155960.79,2330.3,25.28,Monitor, SOUTH,June
+985,67953.86,3227.36,15.34,Printer,North,Jan
+986,17557.11,1798.19,31.75,Camera,east,NOV
+987,111185.06,2367.53,34.2,Laptop,West ,Oct
+989,142512.54,2454.28,15.91,Printer,South,Jan
+990,161020.72,1655.3,-14.74,Mouse,north ,February
+991,100737.6,3166.05,-7.14,Tablet,East,MAR
+992,152179.64,3469.69,-10.22,Mobile,Central,Oct
+993,177508.28,1293.36,29.58,Smartwatch,South,Jan
+994,182737.69,1055.39,22.03,Mouse,West,Aug
+995,57682.41,4097.41,34.37,Camera,East,apr
+996,148705.57,301.73,1.74,Monitor,east,May
+998,106666.42,3791.85,-9.83,Mobile,East,dec
+1003,115985.32,2304.77,18.41,Monitor,West,May
+1004,188672.66,2226.9,-14.51,Laptop,West,dec
+1005,165584.83,4588.03,-16.06,Keyboard,east,May
+1006,30644.11,4152.87,-17.46,Mobile,North,NOV
+1008,166002.08,2074.28,9.58,Smartwatch,West ,Jan
+1009,114786.1,710.65,-17.71,Smartwatch,East,MAR
+1011,21511.63,2523.07,27.18,Mobile,north ,Jan
+1014,36532.0,709.03,35.6,Smartwatch,West ,Oct
+1015,7860.11,3764.22,-17.22,Camera,East,NOV
+1016,50449.08,2497.65,22.3,Tablet,North,dec
+1017,108041.0,828.08,10.23,Monitor,South,May
+1020,187086.77,4407.43,-18.68,Camera,West ,NOV
+1021,71829.07,2421.57,-8.35,Laptop,West,Jan
+1022,51912.46,1161.45,21.46,Monitor,north ,MAR
+1023,196443.97,2125.46,0.06,Keyboard,Central,May
+1026,137781.15,4223.9,0.26,Headphones, SOUTH,jul
+1027,39083.35,3124.28,-8.48,Headphones,North,MAR
+1028,164785.8,2570.52,9.81,Monitor,Central,Aug
+1029,6159.4,3000.72,28.65,Camera,South,Aug
+1031,43355.25,430.43,7.64,Headphones,Central,Oct
+1033,163071.65,215.68,24.78,Keyboard,North,June
+1034,85211.68,2436.51,24.51,Printer,South,apr
+1035,117698.88,4790.12,39.79,Camera,West,MAR
+1037,19902.55,1590.32,-9.79,Tablet,north ,dec
+1038,126046.54,3082.5,35.41,Headphones,north ,February
+1039,162647.24,3452.39,13.48,Smartwatch,North,September
+1041,125725.64,2271.42,34.19,Tablet,South,Oct
+1042,24228.13,1539.49,19.32,Camera,east,February
+1043,14056.44,2931.21,3.76,Tablet,north ,February
+1044,37943.07,956.14,34.67,Keyboard,Central,Oct
+1047,45632.42,2183.76,2.24,Headphones, SOUTH,Jan
+1049,196567.16,1723.29,-15.38,Mouse,South,June
+1052,94755.29,2168.55,-19.95,Mouse,West ,Jan
+1053,68735.98,466.64,-2.08,Keyboard,north ,MAR
+1056,-32387.99,597.82,30.06,Mouse,east,Aug
+1058,17030.67,3470.91,15.62,Tablet,South,NOV
+1059,147919.12,2406.73,12.87,Mobile, SOUTH,Oct
+1060,143351.41,3922.86,36.84,Keyboard,South,Aug
+1061,102832.22,4907.68,12.29,Mobile,West ,apr
+1062,59499.08,2680.05,0.86,Laptop,east,June
+1063,36480.95,2028.53,-6.84,Camera,east,jul
+1065,64952.05,4454.2,-8.22,Mobile,South,jul
+1066,57588.85,1780.08,10.27,Headphones,South,September
+1067,169116.62,611.63,18.74,Monitor,north ,September
+1072,72849.05,966.2,-3.38,Tablet,east,jul
+1073,176655.58,2687.24,20.3,Tablet,West ,May
+1074,71593.2,4066.33,10.05,Laptop,North,Jan
+1076,23134.33,1129.65,21.23,Headphones,east,May
+1080,198804.67,1000.09,28.47,Monitor,West ,Jan
+1084,139059.22,1807.21,14.49,Monitor,east,Jan
+1085,92872.27,4640.36,2.77,Mouse,north ,apr
+1086,27806.25,288.93,-13.43,Tablet,North,dec
+1087,53315.42,590.67,30.67,Smartwatch, SOUTH,June
+1088,31033.78,4928.23,8.55,Monitor,North,apr
+1093,-112135.38,4890.73,24.03,Headphones,North,Oct
+1094,186489.24,2176.34,29.26,Laptop,West,jul
+1096,128838.99,3135.42,-11.51,Printer,West,June
+1097,132622.22,2177.8,8.48,Tablet,east,dec
+1098,-58183.84,2412.45,-8.06,Mouse,South,MAR
+1099,175188.65,1232.09,17.36,Mobile,East,May
+1102,124712.44,2987.65,8.9,Keyboard,Central,MAR
+1104,179264.23,2269.4,17.29,Laptop,North,February
+1107,185278.92,2977.81,30.05,Monitor, SOUTH,June
+1111,135348.48,328.32,11.27,Headphones,South,apr
+1112,10184.15,2890.68,-4.32,Monitor,South,Oct
+1113,65671.46,4557.38,18.06,Mobile,West ,Oct
+1114,124345.81,3806.62,10.93,Mouse,north ,jul
+1115,140382.79,4092.37,-9.2,Monitor,West,February
+1116,154971.18,487.41,2.75,Smartwatch,north ,Aug
+1118,91697.64,3811.48,13.08,Printer,West,jul
+1119,181694.72,1767.69,-0.37,Camera,West,Aug
+1120,135408.98,4895.61,-18.0,Headphones,West ,June
+1121,118698.63,1289.82,-4.57,Mouse, SOUTH,apr
+1123,130823.19,3610.9,14.14,Camera,East,dec
+1124,51470.9,1493.45,29.48,Mouse,West,June
+1125,28211.31,3813.68,-15.71,Mobile,east,September
+1127,146012.57,623.9,17.66,Monitor,North,Oct
+1128,194245.31,1990.95,16.15,Mouse,North,MAR
+1129,196737.91,4983.61,-2.76,Mouse,South,apr
+1130,78888.4,2481.35,-11.26,Mobile,East,June
+1131,192968.78,4201.09,19.84,Printer,north ,February
+1132,100406.0,1789.93,10.68,Monitor,South,NOV
+1135,157903.75,4192.52,-1.55,Monitor,West ,Oct
+1139,170737.29,2619.69,-8.32,Camera, SOUTH,NOV
+1144,163649.45,4379.8,24.97,Camera,West,MAR
+1146,148056.69,2367.08,37.35,Keyboard,North,Aug
+1148,87852.99,442.12,10.3,Mouse,Central,Oct
+1150,126339.94,1208.32,33.46,Headphones,north ,dec
+1151,-126926.13,3644.82,39.17,Keyboard,South,May
+1152,190479.42,4068.21,-5.64,Tablet,East,Aug
+1153,149418.71,3817.45,21.62,Laptop,South,Jan
+1154,7118.81,1384.51,23.49,Mouse, SOUTH,apr
+1155,49895.1,2555.14,36.31,Smartwatch,East,June
+1156,183387.46,2682.04,2.69,Smartwatch,South,NOV
+1157,147473.71,4759.02,-4.76,Headphones,Central,May
+1158,33486.66,2764.67,20.64,Mouse,Central,February
+1161,158457.45,1584.44,17.61,Printer,North,NOV
+1164,14457.5,1602.08,-7.01,Monitor, SOUTH,apr
+1165,14747.33,657.21,20.21,Smartwatch,West ,February
+1168,-184681.43,4610.8,24.24,Mobile,Central,NOV
+1171,104159.42,4178.49,18.52,Camera,north ,MAR
+1173,103041.03,3805.77,21.52,Keyboard,north ,Jan
+1174,82096.8,3101.81,25.74,Camera,West,MAR
+1175,188745.87,4432.99,-10.7,Smartwatch,Central,MAR
+1177,137118.01,2712.21,34.44,Mobile,Central,September
+1178,165429.79,1475.75,11.15,Headphones,north ,apr
+1179,191673.3,3558.66,35.96,Monitor,North,September
+1181,101654.45,3735.24,22.98,Tablet,north ,MAR
+1182,194660.62,1063.75,-3.05,Camera,east,dec
+1185,81885.06,2324.29,18.43,Tablet,Central,June
+1186,78278.17,3556.16,-15.48,Printer,North,June
+1188,146470.33,4154.78,-7.32,Mouse,Central,Oct
+1190,62233.64,4844.05,-12.97,Keyboard,West,Aug
+1191,162573.16,3048.98,16.84,Printer,East,Aug
+1192,67659.15,4036.72,26.18,Headphones,West,February
+1193,68921.21,4441.9,-13.71,Tablet,north ,apr
+1194,114243.66,4891.03,37.19,Smartwatch,East,Aug
+1196,126880.71,3931.25,20.74,Headphones,north ,June
+1197,160966.24,4540.62,11.4,Printer,East,jul
+1199,108455.98,356.61,31.72,Laptop,West ,jul
+1200,67185.38,2717.74,20.1,Headphones,South,Jan
+1201,34174.11,785.47,12.41,Headphones,Central,apr
+1202,138073.97,3937.93,-3.02,Printer,South,Jan
+1203,-143499.98,4420.62,-4.62,Camera,East,Oct
+1204,153025.88,2987.9,6.06,Mouse,North,February
+1205,67209.6,1771.52,22.71,Laptop,East,dec
+1206,40008.83,2181.67,31.74,Keyboard, SOUTH,May
+1207,93234.54,2709.11,-15.18,Mouse,East,September
+1208,46443.94,539.01,-6.35,Laptop,East,NOV
+1209,100260.74,1577.26,19.89,Monitor,east,Aug
+1212,125121.0,1986.67,-1.49,Smartwatch,north ,June
+1214,64175.86,998.39,-9.82,Smartwatch,north ,February
+1215,41009.59,3337.41,5.64,Printer,West ,May
+1218,126144.44,3707.18,19.1,Mobile,North,Aug
+1219,60739.76,3085.15,-9.65,Printer, SOUTH,May
+1221,160370.71,4135.62,13.73,Camera,South,February
+1224,72292.31,1394.82,34.72,Headphones,West ,MAR
+1225,150092.69,1291.26,20.68,Headphones,North,MAR
+1227,173676.05,1929.8,8.98,Smartwatch,east,jul
+1229,37317.36,4916.68,19.44,Monitor, SOUTH,jul
+1230,198113.83,1925.03,-1.89,Smartwatch,East,June
+1231,146798.81,2724.0,17.71,Keyboard, SOUTH,dec
+1232,188990.03,3421.6,15.98,Camera,east,NOV
+1233,133286.84,1294.04,32.22,Camera,West,June
+1235,194271.21,1095.51,10.3,Smartwatch,North,MAR
+1236,36272.11,956.11,28.6,Headphones,South,May
+1237,130040.27,4238.14,16.9,Printer,South,Jan
+1238,183661.26,1909.85,-7.98,Laptop,West ,jul
+1240,172444.63,4522.8,22.13,Mobile,West ,jul
+1241,125672.26,4137.14,8.5,Headphones,North,dec
+1243,103133.04,2220.88,1.92,Mobile,north ,Aug
+1245,128727.93,2081.12,10.39,Monitor,east,apr
+1246,15417.05,1885.31,39.8,Mobile,North,NOV
+1248,90733.22,1286.0,34.01,Headphones,north ,MAR
+1250,64914.65,966.67,-16.72,Smartwatch,east,apr
+1252,50977.32,3128.83,-9.12,Keyboard,Central,Aug
+1254,105872.37,578.28,-6.51,Camera,Central,June
+1257,5653.98,4518.55,8.06,Keyboard,South,jul
+1258,152531.43,1469.16,-8.46,Mobile,West,NOV
+1259,8285.9,343.91,6.18,Tablet,north ,dec
+1262,94810.33,3784.81,9.15,Laptop,East,Oct
+1263,82029.57,3205.59,-4.3,Printer,north ,apr
+1264,85299.79,2350.62,20.7,Smartwatch,east,Jan
+1266,127632.59,3945.86,27.6,Smartwatch,North,apr
+1270,144812.93,3554.61,-5.72,Smartwatch,north ,September
+1271,127022.66,4712.41,-16.03,Laptop,West ,May
+1272,83467.37,1794.03,-0.42,Monitor,West ,Oct
+1273,152969.39,4211.17,14.49,Smartwatch,North,NOV
+1274,165486.54,897.75,-18.49,Monitor,West,Jan
+1275,87126.82,4058.03,28.52,Printer,north ,apr
+1276,74521.91,339.32,2.44,Laptop,east,February
+1279,38970.8,2637.31,18.77,Mobile,East,Jan
+1280,177719.49,3169.5,-13.81,Keyboard,north ,dec
+1281,61350.13,2390.14,0.55,Camera,West,jul
+1283,54975.49,2293.3,-4.73,Monitor, SOUTH,Jan
+1284,168064.06,4626.78,-18.04,Monitor,North,jul
+1285,154349.93,3815.37,24.15,Printer,East,Aug
+1286,147777.28,499.77,21.8,Headphones,North,June
+1287,21155.4,3994.55,28.52,Tablet,West ,NOV
+1288,135954.94,701.56,-16.66,Laptop,North,September
+1289,188180.78,1047.92,6.1,Mouse,east,Jan
+1291,107451.41,3176.91,-14.14,Monitor,North,June
+1292,123420.08,3822.23,-10.01,Printer,East,MAR
+1296,190828.67,1959.32,-0.09,Mobile,West,apr
+1297,43311.19,404.47,18.96,Camera,East,jul
+1298,171961.28,3931.16,7.27,Keyboard,North,Oct
+1302,189663.47,2232.27,7.46,Smartwatch,South,jul
+1303,89740.54,4455.51,38.41,Camera,East,dec
+1304,158769.04,2312.9,23.67,Camera,West ,September
+1306,108017.23,3909.29,25.73,Headphones,West,Aug
+1307,169046.44,2409.71,-6.44,Headphones,North,Jan
+1309,142703.59,3392.42,26.69,Smartwatch,east,NOV
+1312,66903.15,3470.41,0.34,Mouse,East,MAR
+1313,69597.24,4431.61,28.56,Smartwatch,east,June
+1314,-181334.6,4467.12,36.24,Smartwatch,North,MAR
+1315,-5576.06,3903.12,20.84,Mobile,east,June
+1319,164403.09,382.08,-5.71,Camera,South,Oct
+1321,30656.54,906.76,8.83,Smartwatch,West,May
+1322,38478.08,205.39,2.79,Camera,East,Aug
+1323,-174159.82,4691.67,-1.82,Mobile,West ,dec
+1324,178466.13,4037.64,33.13,Keyboard,West ,dec
+1325,100623.77,1111.43,-3.3,Smartwatch,South,June
+1326,53951.9,699.26,19.66,Keyboard, SOUTH,MAR
+1327,186974.4,3555.79,20.01,Keyboard,South,MAR
+1328,170179.86,2242.04,-14.36,Mouse,Central,May
+1329,171234.62,473.42,-11.7,Laptop,east,Oct
+1331,113844.77,1274.38,36.11,Monitor,north ,Jan
+1332,108434.82,3398.18,25.71,Mobile,East,February
+1334,147136.62,639.72,19.62,Keyboard,West ,MAR
+1336,173976.19,1158.85,-19.86,Mouse,Central,Aug
+1337,175077.79,3173.69,-18.08,Tablet,West,February
+1339,153641.75,566.74,36.57,Laptop,West ,apr
+1340,14454.69,3686.72,7.36,Mouse,West ,jul
+1341,190505.7,4974.96,13.62,Mouse,north ,Jan
+1342,33173.81,2138.53,-12.33,Camera,South,apr
+1343,138573.8,1747.57,-16.11,Mobile,South,NOV
+1344,150234.43,3754.77,16.41,Mobile,East,Oct
+1345,157797.09,2483.15,22.35,Mobile,East,September
+1347,19416.4,2391.63,28.79,Mobile,West ,Jan
+1348,7864.78,3512.81,37.39,Headphones,east,June
+1350,136916.93,802.79,26.57,Keyboard,Central,Oct
+1351,94290.91,3317.24,13.5,Monitor,West ,May
+1352,81388.05,4412.59,13.64,Mobile,North,Jan
+1353,32897.98,3310.73,37.55,Printer,East,Oct
+1354,117656.64,4613.87,-14.48,Printer,West ,apr
+1355,197873.23,3390.13,7.23,Smartwatch,north ,Aug
+1356,133461.27,2047.17,-11.6,Mouse,north ,apr
+1357,193306.04,459.78,-6.76,Mouse, SOUTH,MAR
+1358,55988.26,1959.79,-11.18,Mobile,North,Jan
+1359,147252.07,4166.34,-18.06,Laptop,East,apr
+1360,125899.55,734.78,20.01,Mobile,Central,Jan
+1361,92293.96,1259.7,-18.58,Tablet,Central,Aug
+1362,53247.09,1983.21,-0.28,Camera,South,Jan
+1363,33584.29,1024.72,-17.25,Keyboard, SOUTH,September
+1364,87299.44,2403.56,-18.69,Headphones,South,Oct
+1366,31710.74,1943.77,2.67,Mouse,east,MAR
+1367,22880.7,390.4,22.4,Camera,West,NOV
+1368,71006.78,3357.67,18.87,Headphones, SOUTH,Jan
+1371,101642.26,3701.63,-7.73,Smartwatch,West,jul
+1372,23432.14,1736.04,13.85,Keyboard,east,dec
+1373,45929.68,2250.4,1.07,Mobile,South,MAR
+1376,77135.03,4463.05,1.05,Keyboard,West ,jul
+1379,127807.0,2283.04,28.82,Laptop,West,September
+1380,67102.0,3643.87,6.02,Mouse,North,dec
+1381,126678.36,340.29,-11.94,Keyboard,Central,MAR
+1384,69755.7,4220.28,14.77,Mouse,West,MAR
+1385,141388.81,3370.87,-0.14,Mouse,east,NOV
+1386,121808.32,3292.16,-7.06,Camera,north ,NOV
+1387,124243.43,2630.43,-1.79,Printer,east,NOV
+1389,89091.97,1210.11,1.8,Smartwatch,West,jul
+1390,156773.71,236.01,-3.8,Camera, SOUTH,June
+1392,11998.72,4958.21,5.99,Mobile,Central,dec
+1393,175264.77,4702.98,17.98,Tablet,north ,June
+1394,113558.26,2147.91,-11.94,Mouse,Central,apr
+1396,136074.92,4428.51,9.49,Smartwatch, SOUTH,dec
+1398,85427.19,3501.02,7.4,Printer,West,September
+1400,16327.97,3427.17,-9.61,Mobile,Central,February
+1401,11896.65,4495.14,-13.02,Printer,South,Aug
+1402,140667.12,4144.98,21.35,Laptop,East,apr
+1404,114720.33,564.88,-17.91,Tablet,east,May
+1405,88963.72,3623.82,15.18,Mobile,north ,Aug
+1408,124782.62,2545.2,35.79,Smartwatch,east,September
+1410,94932.12,1112.12,-18.95,Monitor, SOUTH,Oct
+1411,26903.69,4338.59,5.44,Monitor,Central,NOV
+1412,92912.91,4235.28,11.45,Smartwatch,South,dec
+1413,76765.07,2911.34,-2.41,Camera,North,September
+1414,132856.8,1927.06,16.29,Headphones,Central,MAR
+1415,159283.43,3157.04,21.77,Laptop,Central,dec
+1416,148705.68,2024.08,-17.36,Camera,North,jul
+1417,162582.71,1189.12,32.12,Headphones,east,NOV
+1419,129759.55,3672.77,0.12,Tablet,West ,September
+1420,56350.67,274.27,-9.93,Monitor,West,June
+1421,151951.93,3648.12,36.89,Smartwatch,East,apr
+1425,156157.58,3989.45,14.96,Camera,north ,Aug
+1428,57552.34,3098.88,-11.53,Camera,north ,Aug
+1429,27337.95,2894.09,13.75,Smartwatch,West ,MAR
+1430,59756.75,808.86,30.32,Headphones, SOUTH,September
+1431,107487.45,543.35,22.99,Tablet,West,May
+1433,158959.07,4909.31,-3.0,Mobile,South,May
+1436,189729.67,2098.22,24.69,Printer,West,Oct
+1437,56825.72,1084.54,-5.77,Keyboard,East,NOV
+1439,127428.63,2098.28,-15.66,Tablet,West ,May
+1440,41082.86,307.22,7.71,Smartwatch,West,apr
+1441,165058.7,4594.82,1.38,Keyboard,South,apr
+1442,91615.79,4402.84,-14.97,Tablet, SOUTH,May
+1445,22514.98,488.87,5.11,Headphones,South,February
+1446,102185.5,2903.8,-2.43,Headphones,north ,MAR
+1447,124523.69,956.59,33.76,Monitor,East,May
+1449,111816.86,2756.55,-12.85,Printer,South,NOV
+1450,121620.28,3212.23,6.06,Camera,East,Oct
+1452,179903.37,2476.78,25.23,Printer, SOUTH,February
+1454,188715.86,849.61,3.58,Keyboard,north ,May
+1455,123476.42,3343.8,26.7,Headphones,east,June
+1456,86180.65,2552.77,-8.49,Laptop,West,May
+1460,97393.69,3818.81,26.69,Printer,West,September
+1461,149534.31,3704.98,-18.57,Printer, SOUTH,Oct
+1462,120098.34,4272.89,35.06,Headphones, SOUTH,September
+1463,179410.41,2596.39,32.85,Keyboard,South,dec
+1464,29884.04,3649.4,-2.94,Tablet,Central,jul
+1466,20322.05,4573.21,1.35,Headphones,West ,NOV
+1469,63999.19,3970.3,24.89,Keyboard,east,Jan
+1470,174579.41,1144.5,38.48,Keyboard,South,Aug
+1471,129063.84,4992.01,-7.19,Monitor,Central,Jan
+1473,46014.37,2395.54,37.11,Printer,West,dec
+1474,38250.11,3004.57,-17.19,Printer,Central,September
+1476,157263.21,2953.13,17.19,Mouse,North,Oct
+1477,14725.59,2695.61,7.53,Monitor,South,February
+1478,153991.23,4666.12,31.49,Laptop,north ,NOV
+1480,105690.13,470.82,27.78,Camera, SOUTH,NOV
+1481,13634.57,2423.88,-1.15,Printer,South,Oct
+1482,169874.05,209.65,20.22,Keyboard,South,Oct
+1486,149466.8,4479.99,34.39,Printer,north ,jul
+1487,159193.37,2938.19,-15.48,Monitor,South,February
+1489,147039.31,3048.45,28.76,Tablet,North,September
+1493,141718.07,867.74,-11.89,Monitor, SOUTH,Aug
+1494,116857.72,1754.04,-9.3,Monitor,north ,dec
+1497,177999.43,4148.87,25.52,Headphones,east,NOV
+1498,195142.33,1395.59,4.49,Laptop,Central,Oct
+1500,55214.24,2897.95,-13.35,Headphones,east,Oct
