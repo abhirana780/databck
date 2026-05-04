@@ -6,6 +6,7 @@ import certifi
 import re
 from bson import ObjectId
 from dotenv import load_dotenv
+from services.ai_insights import generate_insights, ask_ai_question
 
 # Load environment variables
 load_dotenv()
@@ -52,6 +53,10 @@ def admin():
 @app.route("/powerbi")
 def powerbi():
     return render_template("powerbi.html")
+
+@app.route("/ai-insights")
+def ai_insights_page():
+    return render_template("ai_insights.html")
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -251,8 +256,31 @@ def get_kpi():
             }
         })
 
+@app.route("/api/ai-insights", methods=["GET"])
+def get_ai_insights():
+    try:
+        # Fetch last 100 records for context
+        cursor = db.sales.find().sort("_id", -1).limit(100)
+        data = [serialize(d) for d in cursor]
+        
+        insights = generate_insights(data)
+        return jsonify({"insights": insights})
     except Exception as e:
-        print(f"KPI Error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/ask-ai", methods=["POST"])
+def ask_ai():
+    try:
+        req_data = request.get_json()
+        question = req_data.get("question")
+        
+        # Fetch last 100 records for context
+        cursor = db.sales.find().sort("_id", -1).limit(100)
+        data = [serialize(d) for d in cursor]
+        
+        answer = ask_ai_question(question, data)
+        return jsonify({"answer": answer})
+    except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
