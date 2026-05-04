@@ -20,7 +20,7 @@ app = Flask(
 CORS(app)
 
 # MongoDB Configuration
-MONGO_URI = os.environ.get("MONGODB_URI", "mongodb+srv://arushi:%3Carushi%401150>@cluster0.c6daptm.mongodb.net/?appName=Cluster0")
+MONGO_URI = os.environ.get("MONGODB_URI", "mongodb+srv://officialabhi730_db_user:OVbc4OuLQfeLyCmL@cluster442.nfzrr6j.mongodb.net/")
 DB_NAME = os.environ.get("DB_NAME", "bi_portal")
 
 try:
