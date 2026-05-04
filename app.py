@@ -256,6 +256,10 @@ def get_kpi():
             }
         })
 
+    except Exception as e:
+        print(f"KPI Error: {e}")
+        return jsonify({"error": str(e)}), 500
+
 @app.route("/api/ai-insights", methods=["GET"])
 def get_ai_insights():
     try:
