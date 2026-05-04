@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
 from pymongo import MongoClient
@@ -11,10 +12,14 @@ from services.ai_insights import generate_insights, ask_ai_question
 # Load environment variables
 load_dotenv()
 
+# Define base directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEMPLATE_DIR = os.path.join(BASE_DIR, "..", "frontend")
+
 app = Flask(
     __name__,
-    template_folder="frontend",
-    static_folder="frontend",
+    template_folder=TEMPLATE_DIR,
+    static_folder=TEMPLATE_DIR,
     static_url_path=""
 )
 
