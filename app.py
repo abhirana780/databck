@@ -1,11 +1,10 @@
 from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
-import sqlite3
+from pymongo import MongoClient
 import os
-
-# Paths
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "database.db")
+import certifi
+import re
+from bson import ObjectId
 
 app = Flask(
     __name__,
@@ -16,10 +15,23 @@ app = Flask(
 
 CORS(app)
 
-def get_db_connection():
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
+# MongoDB Configuration
+MONGO_URI = os.environ.get("MONGODB_URI", "mongodb+srv://arushi:%3Carushi%401150>@cluster0.c6daptm.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "bi_portal")
+
+try:
+    client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
+    db = client[DB_NAME]
+    print(f"✅ Connected to MongoDB Atlas: {DB_NAME}")
+except Exception as e:
+    print(f"❌ MongoDB Connection Error: {e}")
+
+# Helper to serialize Mongo docs
+def serialize(doc):
+    if not doc: return None
+    doc["id"] = str(doc.get("_id", ""))
+    if "_id" in doc: del doc["_id"]
+    return doc
 
 @app.route("/")
 def home():
@@ -47,18 +59,13 @@ def login():
         email = str(data.get("email", "")).strip().lower()
         password = str(data.get("password", "")).strip()
 
-        conn = get_db_connection()
-        user = conn.execute(
-            "SELECT * FROM users WHERE LOWER(TRIM(email)) = ? AND TRIM(password) = ?",
-            (email, password)
-        ).fetchone()
-        conn.close()
+        user = db.users.find_one({"email": email, "password": password})
 
         if user:
             return jsonify({
                 "status": "success",
                 "user": {
-                    "id": user["user_id"],
+                    "id": str(user["_id"]),
                     "name": user["name"],
                     "email": user["email"],
                     "role": user["role"]
@@ -73,33 +80,27 @@ def login():
 @app.route("/sales", methods=["GET"])
 def get_sales():
     try:
-        search = request.args.get("q", "").lower()
+        search = request.args.get("q", "").strip()
         page = int(request.args.get("page", 1))
         limit = int(request.args.get("limit", 10))
-        offset = (page - 1) * limit
+        skip = (page - 1) * limit
 
-        conn = get_db_connection()
-        
-        query = "SELECT * FROM sales"
-        params = []
-        
+        query = {}
         if search:
-            query += " WHERE LOWER(product_name) LIKE ? OR LOWER(category) LIKE ? OR LOWER(sub_category) LIKE ? OR LOWER(region) LIKE ? OR LOWER(city) LIKE ? OR LOWER(customer_name) LIKE ?"
-            params.extend([f"%{search}%", f"%{search}%", f"%{search}%", f"%{search}%", f"%{search}%", f"%{search}%"])
-            
-        # Count total
-        count_query = f"SELECT COUNT(*) FROM ({query}) AS t"
-        total_row = conn.execute(count_query, params).fetchone()
-        total = total_row[0] if total_row else 0
-        
-        # Paginate and Sort
-        query += " ORDER BY id DESC LIMIT ? OFFSET ?"
-        params.extend([limit, offset])
-        
-        rows = conn.execute(query, params).fetchall()
-        conn.close()
+            regex = re.compile(search, re.IGNORECASE)
+            query = {"$or": [
+                {"product_name": regex},
+                {"category": regex},
+                {"sub_category": regex},
+                {"region": regex},
+                {"city": regex},
+                {"customer_name": regex}
+            ]}
 
-        data = [dict(row) for row in rows]
+        total = db.sales.count_documents(query)
+        cursor = db.sales.find(query).sort("_id", -1).skip(skip).limit(limit)
+        
+        data = [serialize(d) for d in cursor]
 
         return jsonify({
             "data": data,
@@ -113,65 +114,44 @@ def get_sales():
 def add_sales():
     try:
         data = request.get_json() or {}
-        
-        conn = get_db_connection()
-        columns = ', '.join(data.keys())
-        placeholders = ', '.join(['?' for _ in data])
-        query = f"INSERT INTO sales ({columns}) VALUES ({placeholders})"
-        
-        conn.execute(query, list(data.values()))
-        conn.commit()
-        conn.close()
-
-        return jsonify({"message": "Added Successfully"})
+        # Simple auto-increment replacement (Mongo uses ObjectIds normally)
+        # If the user specifically wants numeric IDs, we can manage a counter,
+        # but standard Mongo practice is ObjectId.
+        result = db.sales.insert_one(data)
+        return jsonify({"message": "Added Successfully", "id": str(result.inserted_id)})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/update_sales/<int:id>", methods=["PUT"])
+@app.route("/update_sales/<id>", methods=["PUT"])
 def update_sales(id):
     try:
         data = request.get_json() or {}
+        if "_id" in data: del data["_id"]
+        if "id" in data: del data["id"]
+
+        result = db.sales.update_one({"_id": ObjectId(id)}, {"$set": data})
         
-        conn = get_db_connection()
-        set_clause = ', '.join([f"{key} = ?" for key in data.keys()])
-        query = f"UPDATE sales SET {set_clause} WHERE id = ?"
-        
-        params = list(data.values()) + [id]
-        
-        cursor = conn.execute(query, params)
-        conn.commit()
-        
-        if cursor.rowcount == 0:
-            conn.close()
+        if result.matched_count == 0:
+            # Fallback for old numeric IDs if they exist
+            result = db.sales.update_one({"id": int(id)}, {"$set": data})
+
+        if result.matched_count == 0:
             return jsonify({"error": "Record not found"}), 404
             
-        conn.close()
         return jsonify({"message": "Updated"})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/delete_sales/<int:id>", methods=["DELETE"])
+@app.route("/delete_sales/<id>", methods=["DELETE"])
 def delete_sales(id):
     try:
-        conn = get_db_connection()
-        conn.execute("DELETE FROM sales WHERE id = ?", (id,))
-        conn.commit()
-        conn.close()
+        result = db.sales.delete_one({"_id": ObjectId(id)})
+        if result.deleted_count == 0:
+            result = db.sales.delete_one({"id": int(id)})
 
         return jsonify({"message": "Deleted"})
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route("/users", methods=["GET"])
-def get_users():
-    try:
-        conn = get_db_connection()
-        rows = conn.execute("SELECT * FROM users").fetchall()
-        conn.close()
-        return jsonify([dict(row) for row in rows])
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -179,59 +159,79 @@ def get_users():
 @app.route("/kpi", methods=["GET"])
 def get_kpi():
     try:
-        conn = get_db_connection()
-        # Basic stats
-        stats = conn.execute("SELECT SUM(sales_amount), SUM(profit), COUNT(*) FROM sales").fetchone()
+        # Aggregation for Basic stats
+        pipeline_basic = [
+            {"$group": {
+                "_id": None,
+                "total_sales": {"$sum": "$sales_amount"},
+                "total_profit": {"$sum": "$profit"},
+                "count": {"$sum": 1}
+            }}
+        ]
+        basic_stats = list(db.sales.aggregate(pipeline_basic))
+        stats = basic_stats[0] if basic_stats else {"total_sales":0, "total_profit":0, "count":0}
+
+        total_sales = stats["total_sales"]
+        total_profit = stats["total_profit"]
+        total_orders = stats["count"]
         
-        total_sales = stats[0] or 0
-        total_profit = stats[1] or 0
-        total_orders = stats[2] or 0
-        
-        # Advanced calculations
         aov = total_sales / total_orders if total_orders > 0 else 0
         margin = (total_profit / total_sales) * 100 if total_sales > 0 else 0
         
-        # Category Breakdown for Top Performer
-        top_cat = conn.execute("SELECT category, SUM(sales_amount) as s FROM sales GROUP BY category ORDER BY s DESC LIMIT 1").fetchone()
-        
-        # Regional Top Performer
-        top_reg = conn.execute("SELECT region, SUM(sales_amount) as s FROM sales GROUP BY region ORDER BY s DESC LIMIT 1").fetchone()
+        # Helper for Top Performers
+        def get_top(field):
+            agg = list(db.sales.aggregate([
+                {"$group": {"_id": f"${field}", "total": {"$sum": "$sales_amount"}}},
+                {"$sort": {"total": -1}},
+                {"$limit": 1}
+            ]))
+            return agg[0]["_id"] if agg else "N/A"
 
-        # Product Top Performer
-        top_prod = conn.execute("SELECT product_name, SUM(sales_amount) as s FROM sales GROUP BY product_name ORDER BY s DESC LIMIT 1").fetchone()
+        # Chart Data: Region
+        regions = list(db.sales.aggregate([
+            {"$group": {"_id": "$region", "value": {"$sum": "$sales_amount"}}},
+            {"$sort": {"value": -1}}
+        ]))
+        region_data = [{"name": r["_id"], "value": round(r["value"], 2)} for r in regions]
 
-        # Region Breakdown
-        regions = conn.execute("SELECT region, SUM(sales_amount) as s FROM sales GROUP BY region ORDER BY s DESC").fetchall()
-        region_data = [{"name": r["region"], "value": round(r["s"], 2)} for r in regions]
-        
-        # Category Breakdown
-        categories = conn.execute("SELECT category, SUM(sales_amount) as s FROM sales GROUP BY category").fetchall()
-        category_data = [{"name": r["category"], "value": round(r["s"], 2)} for r in categories]
-        
-        # Monthly Trend (Last 6 Months roughly or all)
-        # Using strftime to group by month
-        trend = conn.execute("SELECT strftime('%Y-%m', date) as m, SUM(sales_amount) as s FROM sales GROUP BY m ORDER BY m ASC LIMIT 12").fetchall()
-        trend_data = [{"name": r["m"], "value": round(r["s"], 2)} for r in trend]
+        # Chart Data: Category
+        categories = list(db.sales.aggregate([
+            {"$group": {"_id": "$category", "value": {"$sum": "$sales_amount"}}},
+            {"$sort": {"value": -1}}
+        ]))
+        category_data = [{"name": r["_id"], "value": round(r["value"], 2)} for r in categories]
+
+        # Chart Data: Trend (Monthly)
+        # Note: Date in Mongo should be stored as Date objects or YYYY-MM-DD strings
+        trend = list(db.sales.aggregate([
+            {"$project": {"month": {"$substr": ["$date", 0, 7]}, "sales_amount": 1}},
+            {"$group": {"_id": "$month", "value": {"$sum": "$sales_amount"}}},
+            {"$sort": {"_id": 1}},
+            {"$limit": 12}
+        ]))
+        trend_data = [{"name": r["_id"], "value": round(r["value"], 2)} for r in trend]
 
         # Top 5 Customers
-        customers = conn.execute("SELECT customer_name, SUM(sales_amount) as s FROM sales GROUP BY customer_name ORDER BY s DESC LIMIT 5").fetchall()
-        customer_data = [{"name": r["customer_name"], "value": round(r["s"], 2)} for r in customers]
+        customers = list(db.sales.aggregate([
+            {"$group": {"_id": "$customer_name", "value": {"$sum": "$sales_amount"}}},
+            {"$sort": {"value": -1}},
+            {"$limit": 5}
+        ]))
+        customer_data = [{"name": r["_id"], "value": round(r["value"], 2)} for r in customers]
         
         # Recent 5 Transactions
-        recent = conn.execute("SELECT product_name, sales_amount, date, customer_name FROM sales ORDER BY date DESC, id DESC LIMIT 5").fetchall()
-        recent_data = [dict(r) for r in recent]
-
-        conn.close()
+        recent = list(db.sales.find({}, {"product_name":1, "sales_amount":1, "date":1, "customer_name":1}).sort([("date", -1), ("_id", -1)]).limit(5))
+        recent_data = [serialize(r) for r in recent]
 
         return jsonify({
-            "total_sales": total_sales,
-            "total_profit": total_profit,
+            "total_sales": round(total_sales, 2),
+            "total_profit": round(total_profit, 2),
             "total_orders": total_orders,
             "aov": round(aov, 2),
             "margin": round(margin, 2),
-            "top_category": top_cat["category"] if top_cat else "N/A",
-            "top_region": top_reg["region"] if top_reg else "N/A",
-            "top_product": top_prod["product_name"] if top_prod else "N/A",
+            "top_category": get_top("category"),
+            "top_region": get_top("region"),
+            "top_product": get_top("product_name"),
             "charts": {
                 "region": region_data,
                 "category": category_data,
@@ -242,6 +242,7 @@ def get_kpi():
         })
 
     except Exception as e:
+        print(f"KPI Error: {e}")
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
