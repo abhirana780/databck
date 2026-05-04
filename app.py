@@ -242,7 +242,13 @@ def get_kpi():
                 "trend": trend_data,
                 "customers": customer_data
             },
-            "recent_data": recent_data
+            "recent_data": recent_data,
+            "metadata": {
+                "db_engine": "MongoDB Atlas",
+                "db_status": "Operational",
+                "sync_status": "Real-time",
+                "source": "Dataset (Cloud Synced)"
+            }
         })
 
     except Exception as e:
