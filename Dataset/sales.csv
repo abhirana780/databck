@@ -1766,7 +1766,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 37062,Tablet,South,1133.86,11/9/2024,5,Office Supplies,C1442,348.5
 9504,Laptop,West ,1467.86,2/21/2026,5,Office Supplies,C1407,270.62
 12747,Laptop,North,1995.49,12/26/2024,4,Furniture,C1424,331.22
-43724,Printer,South,-695.08,12/28/2026,1,Electronics,C1065,-201.22
+43724,Printer,South,695.08,12/28/2026,1,Electronics,C1065,-201.22
 912,Tablet,Central,3319.59,4/11/2025,5,Clothing,C1368,832.05
 11486,Smartwatch, SOUTH,2072.14,12/5/2024,1,Clothing,C1189,329.03
 27248,Keyboard,East,854.05,4/2/2026,2,Accessories,C1018,259.67

@@ -33402,7 +33402,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 43719,Mobile,West,1901.60998535156,2025-10-13,1,Office Supplies,208.440002441406,Sneha Kapoor,Hyderabad,Gadgets,24,20
 43720,Headphones,East,1720.90002441406,2025-03-10,3,Electronics,561.52001953125,Rohit Mehta,Delhi,Accessories,5,21
 43721,Monitor,Central,866.02001953125,2025-08-03,5,Office Supplies,147.039993286133,Neha Arora,Mumbai,Computing,6,22
-43724,Printer,South,-695.080017089844,2026-12-28,1,Office Supplies,-201.220001220703,Amit Verma,Hyderabad,Office Devices,9,25
+43724,Printer,South,695.080017089844,2026-12-28,1,Office Supplies,-201.220001220703,Amit Verma,Hyderabad,Office Devices,9,25
 43727,Keyboard,Central,-5212.580078125,2025-02-20,5,Electronics,-1443.98999023438,Neha Arora,Pune,Peripherals,12,28
 43728,Camera,North,551.739990234375,2025-09-10,4,Office Supplies,102.440002441406,Rahul Sharma,Bangalore,Imaging,13,29
 43729,Smartwatch,East,3591.2900390625,2024-11-19,5,Office Supplies,432.549987792969,Priya Singh,Hyderabad,Gadgets,14,30
