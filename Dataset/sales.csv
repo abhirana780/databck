@@ -3914,7 +3914,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 16550,Tablet, SOUTH,4122.54,2/17/2025,5,Office Supplies,C1397,1086.84
 19519,Keyboard,north ,2704.88,6/20/2024,4,Furniture,C1168,886.35
 35074,Smartwatch,West ,393.3,7/2/2025,1,Office Supplies,C1097,125.25
-40488,Tablet,east,930.54,2/8/2027,3,Clothing,C1075,215.14
+40488,Tablet,east,930.54,2/8/2025,3,Clothing,C1075,215.14
 22505,Camera,East,281.43,9/30/2024,1,Office Supplies,C1058,50.36
 17584,Headphones,South,2477.72,10/15/2024,3,Furniture,C1196,456.32
 22408,Tablet, SOUTH,699.92,2/19/2026,2,Electronics,C1070,150.34
@@ -5021,7 +5021,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 13530,Monitor, SOUTH,82.95,2/19/2024,4,Office Supplies,C1490,17.06
 10965,Smartwatch,South,2934.0,11/23/2024,3,Electronics,C1228,371.3
 33881,Keyboard,East,2264.72,6/21/2025,4,Accessories,C1356,306.73
-20275,Camera,West,198.82,10/4/2024,3,Office Supplies,C1438,24.4
+20255,Camera,West,198.82,10/4/2024,3,Office Supplies,C1438,24.4
 18997,Keyboard,North,4051.6,3/27/2025,2,Furniture,C1302,894.98
 17605,Tablet,West ,2755.27,5/7/2025,4,Electronics,C1401,475.71
 46759,Mobile,East,2968.38,3/13/2024,1,Clothing,C1393,565.37
@@ -7425,7 +7425,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 32482,Smartwatch,Central,4138.39,1/17/2026,4,Electronics,C1313,537.63
 43404,Laptop,South,2704.81,12/24/2024,1,Clothing,C1377,807.73
 9183,Camera,east,4108.94,4/12/2025,4,Accessories,C1017,1204.94
-20275,Camera,West,198.82,10/4/2024,5,Electronics,C1322,41.58
+20255,Camera,West,198.82,10/4/2024,5,Electronics,C1322,41.58
 2539,Printer,East,4564.03,2/6/2025,1,Furniture,C1456,1517.96
 1826,Tablet,North,1888.71,5/10/2025,2,Furniture,C1381,286.86
 44172,Camera,West ,4250.41,9/21/2025,2,Electronics,C1144,513.13
@@ -8507,7 +8507,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 8010,Laptop,West ,2117.1,2/2/2026,1,Accessories,C1050,642.28
 11558,Printer,South,3032.84,8/25/2025,4,Furniture,C1316,639.05
 15699,Mouse, SOUTH,4864.33,11/30/2024,2,Furniture,C1321,611.49
-20276,Camera,east,3933.15,5/15/2025,5,Accessories,C1186,658.26
+20256,Camera,east,3933.15,5/15/2025,5,Accessories,C1186,658.26
 45619,Keyboard,East,1303.0,10/29/2024,4,Office Supplies,C1188,201.61
 40261,Camera, SOUTH,2778.9,2/4/2026,5,Office Supplies,C1312,563.9
 32576,Mouse,east,2182.34,12/15/2024,1,Clothing,C1181,426.27
@@ -10153,7 +10153,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 22016,Keyboard,West,2791.46,9/2/2024,2,Furniture,C1129,574.65
 33215,Tablet,East,3654.78,8/31/2024,2,Office Supplies,C1135,962.0
 22613,Mouse, SOUTH,3847.21,4/15/2026,4,Accessories,C1153,421.95
-24326,Printer,North,1590.05,1/6/2027,3,Accessories,C1250,228.44
+24326,Printer,North,1590.05,1/6/2025,3,Accessories,C1250,228.44
 47475,Mouse,North,1365.56,2/10/2024,2,Accessories,C1483,396.55
 35028,Camera,North,3544.56,5/30/2025,5,Accessories,C1137,762.95
 33540,Camera,Central,606.57,3/5/2024,5,Furniture,C1448,160.08
@@ -11983,7 +11983,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 34180,Keyboard,north ,2779.42,8/8/2025,3,Office Supplies,C1035,503.15
 41741,Printer,South,4479.95,11/11/2024,4,Office Supplies,C1080,1014.24
 32292,Mouse,Central,4637.28,8/2/2025,5,Furniture,C1443,941.57
-37311,Tablet,West,2954.09,2/6/2027,4,Accessories,C1217,327.49
+37311,Tablet,West,2954.09,2/6/2025,4,Accessories,C1217,327.49
 33038,Monitor,West ,1685.25,5/24/2024,3,Electronics,C1414,246.04
 23718,Tablet,Central,3515.08,1/14/2025,2,Clothing,C1012,513.4
 14680,Keyboard, SOUTH,2171.6,12/7/2024,4,Office Supplies,C1135,532.06
@@ -12775,7 +12775,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 3391,Smartwatch,South,3956.75,8/1/2024,4,Office Supplies,C1180,841.25
 28279,Keyboard,Central,2935.27,7/10/2024,2,Office Supplies,C1191,667.72
 5653,Keyboard,West ,2580.21,5/5/2025,1,Office Supplies,C1309,548.99
-20274,Headphones,West,1015.09,5/26/2024,3,Electronics,C1252,226.08
+20254,Headphones,West,1015.09,5/26/2024,3,Electronics,C1252,226.08
 38394,Mouse,Central,4022.43,11/21/2024,4,Furniture,C1233,749.7
 5061,Monitor,East,4231.09,5/12/2025,3,Furniture,C1058,728.94
 14409,Mouse,Central,1228.58,10/24/2024,2,Accessories,C1177,404.59
@@ -12814,7 +12814,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 11472,Monitor,North,2274.74,3/29/2025,2,Accessories,C1300,577.12
 41010,Laptop,North,1186.72,11/10/2025,5,Furniture,C1293,370.11
 13265,Camera,West ,1229.41,10/18/2025,1,Clothing,C1024,225.51
-32612,Tablet,east,731.16,1/12/2027,1,Electronics,C1396,100.02
+32612,Tablet,east,731.16,1/12/2025,1,Electronics,C1396,100.02
 33473,Camera,South,214.67,1/9/2025,2,Furniture,C1376,66.08
 24104,Mobile,West,4477.66,12/25/2024,1,Electronics,C1459,1099.99
 10085,Mobile,north ,2159.93,12/5/2024,3,Furniture,C1270,748.27
@@ -13436,7 +13436,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 13008,Laptop,East,1600.04,2/16/2026,1,Clothing,C1289,181.36
 11597,Laptop,South,1034.13,10/1/2024,1,Electronics,C1195,150.25
 39681,Smartwatch, SOUTH,1873.95,1/13/2025,1,Electronics,C1405,223.2
-20270,Laptop, SOUTH,3062.6,4/5/2024,3,Furniture,C1094,852.39
+20250,Laptop, SOUTH,3062.6,4/5/2024,3,Furniture,C1094,852.39
 30979,Headphones,West ,4374.04,6/8/2024,1,Electronics,C1107,939.91
 49561,Monitor,north ,1158.58,2/19/2026,4,Office Supplies,C1264,268.9
 3521,Tablet, SOUTH,4049.63,1/4/2026,5,Clothing,C1281,1067.14
@@ -13706,7 +13706,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 49022,Monitor,east,3223.19,11/14/2025,2,Electronics,C1337,863.95
 35520,Keyboard,north ,2013.96,8/29/2025,5,Electronics,C1415,554.71
 24600,Tablet,East,2619.71,6/21/2026,4,Electronics,C1467,561.32
-20277,Camera,North,1433.16,4/19/2024,4,Furniture,C1416,461.86
+20257,Camera,North,1433.16,4/19/2024,4,Furniture,C1416,461.86
 3028,Camera,East,402.67,12/9/2024,1,Office Supplies,C1207,55.34
 617,Smartwatch,east,313.47,4/12/2025,1,Accessories,C1020,64.9
 43364,Mouse, SOUTH,601.4,9/4/2024,4,Electronics,C1290,103.11
@@ -14105,7 +14105,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 35272,Printer,Central,5817.07,3/7/2026,3,Accessories,C1393,1634.85
 3350,Printer,east,2139.24,7/25/2025,4,Clothing,C1101,247.2
 24293,Keyboard,West,2097.18,11/24/2024,1,Electronics,C1478,516.63
-30736,Tablet,East,3308.8,2/15/2027,1,Electronics,C1151,726.88
+30736,Tablet,East,3308.8,2/15/2025,1,Electronics,C1151,726.88
 25961,Headphones,West ,2074.87,11/19/2024,2,Electronics,C1449,319.87
 37319,Tablet,East,4906.59,11/22/2026,3,Clothing,C1352,1101.6
 11347,Tablet,east,4711.83,12/13/2025,3,Electronics,C1045,786.15
@@ -15458,7 +15458,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 28661,Printer,north ,3557.16,2/7/2025,1,Accessories,C1250,1242.98
 32816,Monitor,South,221.96,6/1/2026,1,Accessories,C1296,56.57
 28768,Headphones,West ,3045.67,1/14/2024,5,Accessories,C1271,679.08
-32612,Tablet,east,731.16,1/12/2027,5,Electronics,C1008,96.67
+32612,Tablet,east,731.16,1/12/2025,5,Electronics,C1008,96.67
 2776,Tablet,North,4119.78,7/6/2024,3,Electronics,C1310,1299.04
 41153,Tablet, SOUTH,918.66,8/15/2025,1,Clothing,C1195,313.12
 20150,Camera, SOUTH,1220.62,11/15/2025,5,Clothing,C1313,421.41
@@ -15529,7 +15529,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 7187,Laptop,east,579.83,6/13/2025,5,Furniture,C1196,75.93
 19131,Monitor,East,257.29,5/18/2024,4,Clothing,C1301,55.27
 24465,Mouse,north ,3991.66,8/7/2025,3,Office Supplies,C1180,515.14
-2027,Camera,north ,4938.61,4/12/2024,5,Furniture,C1325,892.34
+2025,Camera,north ,4938.61,4/12/2024,5,Furniture,C1325,892.34
 24039,Smartwatch,Central,4162.87,9/4/2025,5,Clothing,C1035,1167.05
 21297,Mobile,North,3476.48,4/7/2024,5,Electronics,C1075,952.22
 6622,Monitor,north ,570.34,1/16/2025,5,Accessories,C1288,84.33
@@ -17958,7 +17958,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 8735,Tablet,South,2394.27,8/24/2024,4,Accessories,C1093,563.92
 36193,Mouse,South,286.93,8/19/2024,4,Electronics,C1238,74.34
 17356,Keyboard,north ,3645.15,7/12/2024,1,Clothing,C1197,1045.76
-42027,Monitor,West ,2694.19,1/4/2025,3,Clothing,C1467,918.67
+42025,Monitor,West ,2694.19,1/4/2025,3,Clothing,C1467,918.67
 1426,Mobile, SOUTH,873.32,7/19/2024,5,Office Supplies,C1093,252.45
 30979,Headphones,West ,4374.04,6/8/2024,4,Clothing,C1017,1375.75
 42765,Headphones,North,734.83,12/16/2024,4,Office Supplies,C1027,254.8
@@ -18492,7 +18492,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 21942,Monitor,north ,3915.87,5/31/2025,2,Office Supplies,C1298,1111.41
 37015,Mobile,East,2382.15,6/10/2025,2,Electronics,C1329,375.95
 643,Mouse,Central,4016.26,3/17/2024,2,Accessories,C1170,858.86
-44841,Laptop,North,2027.82,10/23/2024,3,Electronics,C1156,643.07
+44841,Laptop,North,2025.82,10/23/2024,3,Electronics,C1156,643.07
 2930,Camera,South,2348.97,4/9/2025,2,Clothing,C1181,501.38
 4941,Monitor,North,-3109.11,8/24/2025,4,Furniture,C1395,-667.35
 29771,Smartwatch,South,2859.47,11/7/2025,3,Electronics,C1285,992.87
@@ -19260,7 +19260,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 39300,Smartwatch,North,2221.02,4/27/2026,1,Clothing,C1348,318.02
 44332,Mobile,east,5452.59,1/25/2024,3,Clothing,C1199,1866.98
 34359,Mouse,South,2120.5,3/26/2024,4,Office Supplies,C1184,289.92
-12027,Camera,East,1722.34,8/17/2024,5,Accessories,C1279,192.1
+12025,Camera,East,1722.34,8/17/2024,5,Accessories,C1279,192.1
 2975,Camera,Central,4733.95,5/29/2025,4,Office Supplies,C1275,666.03
 47474,Mobile,East,1027.37,7/19/2024,2,Furniture,C1389,252.21
 46656,Headphones,North,1772.57,12/26/2025,4,Clothing,C1406,511.43
@@ -20376,7 +20376,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 13906,Smartwatch, SOUTH,1975.26,3/25/2024,1,Accessories,C1398,573.06
 17111,Smartwatch,North,4572.65,9/24/2025,5,Furniture,C1282,679.79
 36670,Printer, SOUTH,4831.75,4/10/2026,1,Electronics,C1173,1189.16
-24326,Printer,North,1590.05,1/6/2027,5,Electronics,C1425,225.99
+24326,Printer,North,1590.05,1/6/2025,5,Electronics,C1425,225.99
 27125,Mouse,Central,4032.66,7/22/2024,5,Office Supplies,C1094,1395.1
 41480,Mobile,North,2712.86,11/18/2025,3,Office Supplies,C1236,777.25
 36945,Smartwatch,north ,2269.87,12/22/2023,1,Clothing,C1175,440.94
@@ -23263,7 +23263,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 13680,Printer,north ,-2928.08,2/17/2025,3,Office Supplies,C1094,-853.43
 30704,Camera,South,217.85,11/3/2025,3,Office Supplies,C1163,27.72
 31870,Tablet,east,790.02,1/7/2025,3,Electronics,C1167,96.48
-20278,Printer, SOUTH,96.61,7/23/2025,2,Electronics,C1291,21.79
+20258,Printer, SOUTH,96.61,7/23/2025,2,Electronics,C1291,21.79
 26219,Headphones,north ,1653.92,8/22/2024,1,Clothing,C1394,183.93
 20748,Mobile,Central,1868.36,10/11/2024,4,Office Supplies,C1246,437.35
 8573,Laptop,north ,4432.43,7/23/2025,1,Furniture,C1291,1017.91
@@ -24452,7 +24452,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 40365,Headphones,East,4568.46,4/28/2025,2,Clothing,C1468,575.0
 15352,Smartwatch,South,3946.86,6/4/2024,5,Office Supplies,C1225,837.21
 43971,Mouse, SOUTH,605.65,4/16/2025,2,Clothing,C1339,187.99
-37311,Tablet,West,2954.09,2/6/2027,3,Furniture,C1008,713.43
+37311,Tablet,West,2954.09,2/6/2025,3,Furniture,C1008,713.43
 16265,Smartwatch,north ,858.6,2/9/2026,3,Electronics,C1270,216.48
 6207,Smartwatch,South,1655.22,3/25/2025,4,Electronics,C1115,171.6
 37258,Keyboard,South,810.51,12/3/2025,3,Office Supplies,C1341,212.29
@@ -24616,7 +24616,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 5742,Camera,east,4011.99,1/14/2025,5,Furniture,C1242,430.72
 46299,Keyboard,north ,2219.26,12/8/2023,1,Electronics,C1279,251.87
 1879,Keyboard,West,2980.2,11/5/2024,4,Furniture,C1449,617.84
-36519,Laptop,East,1018.5,1/29/2027,3,Clothing,C1188,306.28
+36519,Laptop,East,1018.5,1/29/2025,3,Clothing,C1188,306.28
 9291,Laptop,north ,2357.05,1/16/2026,5,Clothing,C1288,808.42
 12881,Camera,South,1768.81,10/12/2024,2,Accessories,C1206,276.38
 21270,Mobile,West,3999.63,6/20/2024,5,Furniture,C1427,1148.74
@@ -26993,7 +26993,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 41242,Smartwatch,West ,5265.43,3/5/2025,1,Accessories,C1139,972.66
 20288,Laptop,West,1379.05,11/26/2025,2,Accessories,C1355,394.15
 25480,Tablet,East,3458.34,3/4/2025,1,Furniture,C1085,1085.22
-20271,Camera,South,5474.62,10/4/2025,1,Office Supplies,C1000,1209.23
+20251,Camera,South,5474.62,10/4/2025,1,Office Supplies,C1000,1209.23
 31391,Smartwatch,Central,2978.75,8/14/2024,3,Clothing,C1051,307.05
 9492,Keyboard,West,627.37,8/5/2025,4,Electronics,C1352,82.02
 25439,Laptop,north ,4444.81,4/23/2025,5,Accessories,C1101,1163.62
@@ -28343,7 +28343,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 32536,Laptop,North,888.3,12/20/2025,5,Furniture,C1196,170.68
 36106,Headphones,north ,2357.68,12/1/2024,4,Office Supplies,C1368,341.98
 17870,Mobile,North,2451.14,8/13/2024,3,Furniture,C1446,764.21
-4855,Laptop,South,2027.56,8/1/2025,3,Office Supplies,C1294,458.66
+4855,Laptop,South,2025.56,8/1/2025,3,Office Supplies,C1294,458.66
 30964,Smartwatch,north ,940.94,5/25/2024,2,Electronics,C1177,320.49
 38570,Keyboard,north ,1516.63,9/11/2024,1,Electronics,C1084,385.99
 20782,Mobile,South,2365.13,8/14/2025,4,Furniture,C1343,327.61
@@ -30760,7 +30760,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 49170,Mouse,Central,1007.0,9/26/2025,3,Clothing,C1325,150.09
 39028,Mouse,South,4948.6,4/9/2024,1,Office Supplies,C1430,1499.51
 43968,Laptop,east,4137.92,3/2/2024,4,Electronics,C1223,525.44
-21596,Tablet,East,4876.38,3/29/2027,1,Accessories,C1440,1589.89
+21596,Tablet,East,4876.38,3/29/2025,1,Accessories,C1440,1589.89
 22827,Keyboard,east,935.18,12/13/2024,5,Accessories,C1181,303.96
 37580,Monitor,South,580.59,1/10/2025,5,Furniture,C1245,192.31
 29631,Monitor,Central,381.83,11/13/2025,4,Office Supplies,C1148,109.02
@@ -33293,7 +33293,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 10559,Laptop,Central,2157.86,11/5/2025,5,Accessories,C1335,594.41
 45309,Headphones,East,-2647.56,1/31/2025,2,Furniture,C1434,-749.76
 49305,Mouse, SOUTH,3164.05,3/3/2024,4,Office Supplies,C1146,976.32
-30736,Tablet,East,3308.8,2/15/2027,3,Electronics,C1010,606.07
+30736,Tablet,East,3308.8,2/15/2025,3,Electronics,C1010,606.07
 3151,Mobile,South,2715.61,9/24/2024,4,Electronics,C1398,435.24
 25789,Tablet,North,526.34,5/11/2024,4,Furniture,C1179,146.21
 40013,Mouse,East,4724.47,4/11/2025,3,Furniture,C1145,1462.75
@@ -33809,7 +33809,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 13197,Mobile,East,3004.1,11/13/2025,2,Accessories,C1111,576.8
 49033,Smartwatch, SOUTH,3848.61,7/30/2024,1,Electronics,C1391,841.23
 15921,Mouse,east,2081.82,7/24/2024,3,Clothing,C1042,307.71
-45296,Printer,East,1845.38,2/16/2027,3,Office Supplies,C1409,488.18
+45296,Printer,East,1845.38,2/16/2025,3,Office Supplies,C1409,488.18
 41326,Keyboard,South,120.9,11/7/2024,1,Office Supplies,C1376,32.58
 13544,Laptop,West ,3065.81,11/15/2025,3,Accessories,C1103,910.12
 22269,Mobile,West,-3559.75,8/14/2025,1,Accessories,C1379,-698.15
@@ -34073,7 +34073,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 10878,Camera,Central,4698.34,9/27/2024,5,Accessories,C1002,582.59
 34479,Printer,east,2289.16,10/1/2024,1,Office Supplies,C1095,310.86
 29953,Laptop,east,4290.34,6/29/2024,4,Furniture,C1276,779.44
-32027,Keyboard,South,1114.1,9/25/2024,2,Accessories,C1259,266.94
+32025,Keyboard,South,1114.1,9/25/2024,2,Accessories,C1259,266.94
 25799,Keyboard,North,2394.25,6/4/2025,3,Clothing,C1178,380.48
 39822,Laptop,Central,400.69,6/16/2024,2,Clothing,C1013,97.94
 20902,Headphones,east,2898.57,7/12/2024,3,Furniture,C1014,682.19
@@ -34920,7 +34920,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 3913,Mobile,Central,2406.42,8/22/2024,4,Electronics,C1119,392.6
 41052,Monitor,north ,530.11,3/12/2025,1,Office Supplies,C1205,168.57
 24926,Tablet,east,5881.25,12/6/2024,4,Clothing,C1049,1985.98
-20271,Camera,South,5474.62,10/4/2025,5,Office Supplies,C1238,1591.67
+20251,Camera,South,5474.62,10/4/2025,5,Office Supplies,C1238,1591.67
 9057,Keyboard,Central,4457.13,11/10/2024,2,Electronics,C1130,1470.33
 39049,Laptop,Central,3953.7,8/31/2025,5,Office Supplies,C1131,651.72
 20990,Monitor, SOUTH,1039.19,3/27/2025,3,Electronics,C1228,248.69
@@ -35228,7 +35228,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 47479,Laptop,north ,3446.81,8/17/2024,3,Office Supplies,C1267,595.4
 35715,Headphones, SOUTH,1066.13,5/7/2025,1,Furniture,C1464,308.79
 48277,Tablet,West,3095.89,8/4/2024,5,Clothing,C1007,856.92
-25182,Tablet,east,755.88,3/15/2027,2,Electronics,C1393,127.59
+25182,Tablet,east,755.88,3/15/2025,2,Electronics,C1393,127.59
 23344,Smartwatch,West,3453.0,10/9/2025,4,Office Supplies,C1379,656.53
 49107,Headphones,East,3995.18,2/10/2025,1,Office Supplies,C1020,929.5
 40540,Headphones,East,1419.99,2/27/2024,3,Accessories,C1369,344.79
@@ -35786,7 +35786,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 29355,Tablet,South,4487.66,5/22/2024,3,Accessories,C1329,1312.77
 16179,Printer,east,3156.82,4/16/2024,2,Clothing,C1170,358.32
 47698,Laptop,north ,3466.17,2/10/2024,4,Accessories,C1112,692.8
-14188,Printer,South,-644.2,1/9/2027,1,Furniture,C1133,-163.03
+14188,Printer,South,-644.2,1/9/2025,1,Furniture,C1133,-163.03
 14368,Printer,West ,2380.49,8/12/2025,5,Office Supplies,C1268,448.14
 40674,Keyboard,West ,2246.05,11/3/2024,2,Accessories,C1469,281.81
 18725,Camera,North,857.85,4/22/2024,1,Clothing,C1341,294.06
@@ -35891,7 +35891,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 48595,Tablet,Central,3587.68,7/9/2024,5,Electronics,C1122,457.96
 46810,Laptop, SOUTH,686.44,11/21/2024,2,Clothing,C1031,234.79
 21728,Smartwatch,north ,654.74,9/11/2025,5,Furniture,C1456,151.37
-14188,Printer,South,-644.2,1/9/2027,1,Furniture,C1200,-169.41
+14188,Printer,South,-644.2,1/9/2025,1,Furniture,C1200,-169.41
 11852,Mobile,north ,405.3,5/8/2024,2,Electronics,C1137,123.85
 21457,Monitor,East,-5060.55,2/8/2024,2,Furniture,C1469,-592.92
 15173,Laptop,South,717.09,8/14/2025,3,Clothing,C1021,230.8
@@ -37171,7 +37171,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 42275,Monitor,East,2247.48,3/12/2026,3,Furniture,C1192,741.54
 46609,Mouse,east,391.65,2/2/2026,3,Furniture,C1233,78.01
 11143,Headphones,east,1749.4,8/3/2024,2,Furniture,C1495,440.64
-20278,Printer, SOUTH,96.61,7/23/2025,3,Electronics,C1328,19.16
+20258,Printer, SOUTH,96.61,7/23/2025,3,Electronics,C1328,19.16
 21991,Camera, SOUTH,1149.87,3/17/2025,2,Accessories,C1185,234.03
 4033,Mobile,West,3023.73,5/2/2025,5,Office Supplies,C1202,971.84
 16567,Smartwatch,north ,561.91,11/1/2025,1,Accessories,C1306,78.38
@@ -38564,7 +38564,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 5670,Headphones,South,697.08,6/8/2024,3,Furniture,C1215,225.19
 25303,Tablet,East,3410.4,11/2/2025,5,Electronics,C1108,1054.23
 43606,Mobile,South,-2878.55,5/24/2025,3,Electronics,C1004,-526.03
-27958,Printer,north ,2027.76,2/23/2024,2,Furniture,C1306,237.55
+27958,Printer,north ,2025.76,2/23/2024,2,Furniture,C1306,237.55
 14018,Monitor,East,4420.25,6/17/2024,1,Clothing,C1386,444.89
 48775,Headphones,West,2060.52,6/13/2024,1,Clothing,C1120,302.88
 44423,Camera,North,3286.17,7/17/2024,5,Electronics,C1099,1055.93
@@ -38732,7 +38732,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 4455,Headphones, SOUTH,2797.02,11/29/2024,2,Electronics,C1315,809.97
 18271,Keyboard,Central,-4263.73,7/31/2024,2,Clothing,C1308,-758.21
 28093,Printer,North,1865.8,4/19/2026,4,Office Supplies,C1256,602.58
-4855,Laptop,South,2027.56,8/1/2025,3,Accessories,C1445,443.05
+4855,Laptop,South,2025.56,8/1/2025,3,Accessories,C1445,443.05
 26758,Smartwatch,West ,2192.22,6/26/2024,2,Clothing,C1230,737.97
 2906,Tablet,North,1754.9,4/15/2025,4,Accessories,C1425,508.93
 11345,Mobile,West ,4692.19,4/29/2025,2,Accessories,C1082,1228.16
@@ -39003,7 +39003,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 21345,Tablet,South,1696.73,5/16/2024,1,Office Supplies,C1174,488.72
 38809,Printer,North,3525.1,4/4/2024,1,Furniture,C1358,893.13
 49156,Monitor,West,4188.89,3/9/2026,1,Office Supplies,C1260,609.68
-20279,Laptop,South,619.68,7/25/2025,2,Clothing,C1493,93.38
+20259,Laptop,South,619.68,7/25/2025,2,Clothing,C1493,93.38
 29241,Monitor,West,3549.02,5/12/2026,4,Electronics,C1149,961.99
 22008,Tablet,north ,5496.27,9/5/2025,4,Electronics,C1266,916.7
 3078,Laptop,West,585.06,3/8/2024,1,Furniture,C1488,92.04
@@ -39674,7 +39674,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 48248,Headphones,East,3446.19,2/2/2026,2,Electronics,C1139,769.54
 3264,Laptop,east,4954.74,12/19/2024,1,Electronics,C1350,829.4
 26044,Mouse,North,3300.51,3/18/2026,1,Clothing,C1222,1128.41
-20272,Printer,West ,2608.58,8/8/2024,3,Furniture,C1384,751.84
+20252,Printer,West ,2608.58,8/8/2024,3,Furniture,C1384,751.84
 28032,Keyboard,East,844.37,10/7/2024,5,Clothing,C1081,265.04
 28062,Keyboard,West ,1415.79,8/18/2024,4,Furniture,C1146,150.1
 32226,Keyboard,East,3374.69,3/2/2025,5,Office Supplies,C1338,691.16
@@ -41564,7 +41564,7 @@ id,product_name,region,sales_amount,date,quantity,category,customer_id,profit
 26621,Smartwatch, SOUTH,1955.62,2/3/2026,5,Accessories,C1025,506.78
 5483,Laptop,north ,3455.44,9/7/2025,1,Office Supplies,C1470,935.47
 27039,Printer,east,4530.7,5/8/2025,4,Accessories,C1447,1073.12
-2703,Printer,East,2027.07,3/31/2025,1,Furniture,C1040,203.26
+2703,Printer,East,2025.07,3/31/2025,1,Furniture,C1040,203.26
 15013,Monitor,West ,306.32,9/19/2024,5,Clothing,C1047,76.79
 34562,Smartwatch,West ,3351.69,7/7/2025,4,Clothing,C1285,771.13
 39115,Headphones,North,1056.68,10/3/2024,2,Office Supplies,C1160,255.62

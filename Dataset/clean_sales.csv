@@ -1352,7 +1352,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 2022,Printer,East,4841.759765625,2025-07-06,5,Office Supplies,877.890014648438,Rahul Sharma,Pune,Office Devices,7,23
 2023,Smartwatch,West,390.75,2024-04-07,3,Office Supplies,80.2600021362305,Priya Singh,Bangalore,Gadgets,8,24
 2026,Monitor,Central,3125.59008789063,2025-11-18,1,Office Supplies,886.679992675781,Rohit Mehta,Mumbai,Computing,11,27
-2027,Camera,North,4938.60986328125,2024-04-12,5,Office Supplies,892.340026855469,Neha Arora,Pune,Imaging,12,28
+2025,Camera,North,4938.60986328125,2024-04-12,5,Office Supplies,892.340026855469,Neha Arora,Pune,Imaging,12,28
 2029,Tablet,East,2795.76000976563,2024-08-09,4,Electronics,736.169982910156,Priya Singh,Hyderabad,Gadgets,14,30
 2030,Printer,East,2668.31005859375,2024-06-29,1,Office Supplies,840.460021972656,Amit Verma,Delhi,Office Devices,15,31
 2032,Headphones,North,1117.5400390625,2024-11-07,3,Electronics,187.779998779297,Rohit Mehta,Pune,Accessories,17,33
@@ -1811,7 +1811,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 2699,Headphones,East,551.929992675781,2024-08-04,2,Electronics,55.9199981689453,Neha Arora,Hyderabad,Accessories,24,100
 2700,Headphones,South,3290.09008789063,2025-04-26,1,Electronics,365.839996337891,Rahul Sharma,Delhi,Accessories,5,1
 2701,Laptop,East,3767.90991210938,2024-08-15,2,Electronics,631.630004882813,Priya Singh,Mumbai,Computing,6,2
-2703,Printer,East,2027.06994628906,2025-03-31,1,Office Supplies,203.259994506836,Sneha Kapoor,Bangalore,Office Devices,8,4
+2703,Printer,East,2025.06994628906,2025-03-31,1,Office Supplies,203.259994506836,Sneha Kapoor,Bangalore,Office Devices,8,4
 2704,Mouse,South,3730.2099609375,2025-10-24,1,Electronics,1188.5400390625,Rohit Mehta,Hyderabad,Peripherals,9,5
 2705,Camera,North,3998.77001953125,2025-06-01,5,Office Supplies,557.989990234375,Neha Arora,Delhi,Imaging,10,6
 2706,Mobile,East,3137.35009765625,2025-03-04,1,Office Supplies,571.679992675781,Rahul Sharma,Mumbai,Gadgets,11,7
@@ -3244,7 +3244,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 4852,Laptop,West,2705.919921875,2024-08-13,1,Electronics,458.920013427734,Rohit Mehta,Pune,Computing,17,53
 4853,Keyboard,North,3205.27001953125,2024-10-22,3,Electronics,341.980010986328,Neha Arora,Bangalore,Peripherals,18,54
 4854,Monitor,East,1224.10998535156,2024-10-11,4,Office Supplies,195.559997558594,Rahul Sharma,Hyderabad,Computing,19,55
-4855,Laptop,South,2027.56005859375,2025-08-01,3,Electronics,458.660003662109,Priya Singh,Delhi,Computing,20,56
+4855,Laptop,South,2025.56005859375,2025-08-01,3,Electronics,458.660003662109,Priya Singh,Delhi,Computing,20,56
 4856,Mobile,North,4155.14990234375,2024-10-15,4,Office Supplies,816.940002441406,Amit Verma,Mumbai,Gadgets,21,57
 4857,Tablet,South,3565.28002929688,2025-01-08,5,Electronics,376.799987792969,Sneha Kapoor,Pune,Gadgets,22,58
 4858,Headphones,South,3077.53002929688,2025-10-08,3,Electronics,758.080017089844,Rohit Mehta,Bangalore,Accessories,23,59
@@ -8023,7 +8023,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 12024,Keyboard,North,345.980010986328,2025-06-27,4,Electronics,105.099998474121,Rahul Sharma,Hyderabad,Peripherals,9,25
 12025,Monitor,North,908.369995117188,2025-01-30,4,Office Supplies,172.149993896484,Priya Singh,Delhi,Computing,10,26
 12026,Camera,East,1168.67004394531,2025-09-01,4,Office Supplies,131.179992675781,Amit Verma,Mumbai,Imaging,11,27
-12027,Camera,East,1722.33996582031,2024-08-17,5,Office Supplies,192.100006103516,Sneha Kapoor,Pune,Imaging,12,28
+12025,Camera,East,1722.33996582031,2024-08-17,5,Office Supplies,192.100006103516,Sneha Kapoor,Pune,Imaging,12,28
 12028,Mobile,Central,212.179992675781,2026-02-15,4,Office Supplies,32.2299995422363,Rohit Mehta,Bangalore,Gadgets,13,29
 12029,Mobile,East,1709.57995605469,2025-07-10,3,Office Supplies,427.010009765625,Neha Arora,Hyderabad,Gadgets,14,30
 12030,Mouse,Central,4836.330078125,2025-10-08,2,Electronics,691.929992675781,Rahul Sharma,Delhi,Peripherals,15,31
@@ -9717,7 +9717,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 14185,Tablet,West,777.340026855469,2025-01-01,4,Electronics,204.0,Priya Singh,Delhi,Gadgets,10,86
 14186,Headphones,Central,2175.1298828125,2026-03-24,1,Electronics,566.210021972656,Amit Verma,Mumbai,Accessories,11,87
 14187,Mouse,North,146.899993896484,2025-03-20,5,Electronics,15.2200002670288,Sneha Kapoor,Pune,Peripherals,12,88
-14188,Printer,South,-644.200012207031,2027-01-09,1,Office Supplies,-163.029998779297,Rohit Mehta,Bangalore,Office Devices,13,89
+14188,Printer,South,-644.200012207031,2025-01-09,1,Office Supplies,-163.029998779297,Rohit Mehta,Bangalore,Office Devices,13,89
 14189,Smartwatch,West,747.489990234375,2024-03-29,3,Office Supplies,99.9100036621094,Neha Arora,Hyderabad,Gadgets,14,90
 14190,Mouse,South,4045.53002929688,2025-10-27,2,Electronics,724.299987792969,Rahul Sharma,Delhi,Peripherals,15,91
 14191,Laptop,South,1043.93005371094,2025-07-02,1,Electronics,151.550003051758,Priya Singh,Mumbai,Computing,16,92
@@ -14586,15 +14586,15 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 20266,Headphones,North,905.880004882813,2024-08-03,2,Electronics,226.240005493164,Rohit Mehta,Mumbai,Accessories,11,67
 20267,Printer,North,1600.06005859375,2025-08-25,5,Office Supplies,427.190002441406,Neha Arora,Pune,Office Devices,12,68
 20268,Keyboard,South,2846.96997070313,2024-05-28,3,Electronics,914.619995117188,Rahul Sharma,Bangalore,Peripherals,13,69
-20270,Laptop,South,3062.60009765625,2024-04-05,3,Electronics,852.390014648438,Amit Verma,Delhi,Computing,15,71
-20271,Camera,South,5474.6201171875,2025-10-04,1,Office Supplies,1209.22998046875,Sneha Kapoor,Mumbai,Imaging,16,72
-20272,Printer,West,2608.580078125,2024-08-08,3,Office Supplies,751.840026855469,Rohit Mehta,Pune,Office Devices,17,73
-20274,Headphones,West,1015.09002685547,2024-05-26,3,Electronics,226.080001831055,Rahul Sharma,Hyderabad,Accessories,19,75
-20275,Camera,West,198.820007324219,2024-10-04,3,Office Supplies,24.3999996185303,Priya Singh,Delhi,Imaging,20,76
-20276,Camera,East,3933.14990234375,2025-05-15,5,Office Supplies,658.260009765625,Amit Verma,Mumbai,Imaging,21,77
-20277,Camera,North,1433.16003417969,2024-04-19,4,Office Supplies,461.859985351563,Sneha Kapoor,Pune,Imaging,22,78
-20278,Printer,South,96.6100006103516,2025-07-23,2,Office Supplies,21.7900009155273,Rohit Mehta,Bangalore,Office Devices,23,79
-20279,Laptop,South,619.679992675781,2025-07-25,2,Electronics,93.379997253418,Neha Arora,Hyderabad,Computing,24,80
+20250,Laptop,South,3062.60009765625,2024-04-05,3,Electronics,852.390014648438,Amit Verma,Delhi,Computing,15,71
+20251,Camera,South,5474.6201171875,2025-10-04,1,Office Supplies,1209.22998046875,Sneha Kapoor,Mumbai,Imaging,16,72
+20252,Printer,West,2608.580078125,2024-08-08,3,Office Supplies,751.840026855469,Rohit Mehta,Pune,Office Devices,17,73
+20254,Headphones,West,1015.09002685547,2024-05-26,3,Electronics,226.080001831055,Rahul Sharma,Hyderabad,Accessories,19,75
+20255,Camera,West,198.820007324219,2024-10-04,3,Office Supplies,24.3999996185303,Priya Singh,Delhi,Imaging,20,76
+20256,Camera,East,3933.14990234375,2025-05-15,5,Office Supplies,658.260009765625,Amit Verma,Mumbai,Imaging,21,77
+20257,Camera,North,1433.16003417969,2024-04-19,4,Office Supplies,461.859985351563,Sneha Kapoor,Pune,Imaging,22,78
+20258,Printer,South,96.6100006103516,2025-07-23,2,Office Supplies,21.7900009155273,Rohit Mehta,Bangalore,Office Devices,23,79
+20259,Laptop,South,619.679992675781,2025-07-25,2,Electronics,93.379997253418,Neha Arora,Hyderabad,Computing,24,80
 20280,Mobile,West,4067.05004882813,2025-08-16,4,Office Supplies,1114.84997558594,Rahul Sharma,Delhi,Gadgets,5,81
 20281,Monitor,East,4678.68017578125,2025-01-13,1,Office Supplies,1586.09997558594,Priya Singh,Mumbai,Computing,6,82
 20282,Headphones,North,1451.35998535156,2024-12-07,5,Electronics,280.059997558594,Amit Verma,Pune,Accessories,7,83
@@ -15653,7 +15653,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 21592,Laptop,North,587.809997558594,2024-07-04,1,Electronics,121.879997253418,Rohit Mehta,Pune,Computing,17,93
 21594,Headphones,Central,2385.76000976563,2026-01-27,1,Electronics,401.470001220703,Rahul Sharma,Hyderabad,Accessories,19,95
 21595,Mouse,East,4876.419921875,2025-02-24,1,Electronics,940.950012207031,Priya Singh,Delhi,Peripherals,20,96
-21596,Tablet,East,4876.3798828125,2027-03-29,1,Electronics,1589.89001464844,Amit Verma,Mumbai,Gadgets,21,97
+21596,Tablet,East,4876.3798828125,2025-03-29,1,Electronics,1589.89001464844,Amit Verma,Mumbai,Gadgets,21,97
 21597,Headphones,West,1124.97998046875,2024-12-13,5,Electronics,112.529998779297,Sneha Kapoor,Pune,Accessories,22,98
 21598,Mobile,West,4965.2099609375,2025-01-10,2,Office Supplies,1617.56005859375,Rohit Mehta,Bangalore,Gadgets,23,99
 21599,Printer,South,3802.57006835938,2024-12-03,5,Office Supplies,690.739990234375,Neha Arora,Hyderabad,Office Devices,24,100
@@ -17832,7 +17832,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 24322,Smartwatch,North,3353.419921875,2026-03-05,5,Office Supplies,1082.21997070313,Rohit Mehta,Pune,Gadgets,7,23
 24323,Monitor,North,2166.42993164063,2026-04-29,4,Office Supplies,306.540008544922,Neha Arora,Bangalore,Computing,8,24
 24324,Mobile,Central,4381.08984375,2024-12-01,2,Office Supplies,599.200012207031,Rahul Sharma,Hyderabad,Gadgets,9,25
-24326,Printer,North,1590.05004882813,2027-01-06,3,Office Supplies,228.440002441406,Amit Verma,Mumbai,Office Devices,11,27
+24326,Printer,North,1590.05004882813,2025-01-06,3,Office Supplies,228.440002441406,Amit Verma,Mumbai,Office Devices,11,27
 24327,Keyboard,Central,101.639999389648,2025-04-13,3,Electronics,33.2299995422363,Sneha Kapoor,Pune,Peripherals,12,28
 24328,Keyboard,West,2207.39990234375,2025-01-24,4,Electronics,344.630004882813,Rohit Mehta,Bangalore,Peripherals,13,29
 24329,Keyboard,West,598.190002441406,2025-03-18,5,Electronics,152.229995727539,Neha Arora,Hyderabad,Peripherals,14,30
@@ -18522,7 +18522,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 25179,Headphones,North,690.820007324219,2024-09-20,1,Electronics,174.380004882813,Sneha Kapoor,Hyderabad,Accessories,24,80
 25180,Headphones,West,3556.43994140625,2025-11-06,1,Electronics,852.859985351563,Rohit Mehta,Delhi,Accessories,5,81
 25181,Monitor,East,2046.27001953125,2024-11-10,5,Office Supplies,247.029998779297,Neha Arora,Mumbai,Computing,6,82
-25182,Tablet,East,755.880004882813,2027-03-15,2,Electronics,127.589996337891,Rahul Sharma,Pune,Gadgets,7,83
+25182,Tablet,East,755.880004882813,2025-03-15,2,Electronics,127.589996337891,Rahul Sharma,Pune,Gadgets,7,83
 25183,Mouse,Central,5588.2001953125,2025-05-19,2,Electronics,1625.83996582031,Priya Singh,Bangalore,Peripherals,8,84
 25185,Mouse,North,3038.7900390625,2024-02-05,3,Electronics,902.510009765625,Sneha Kapoor,Delhi,Peripherals,10,86
 25186,Keyboard,Central,4265.27001953125,2025-05-06,5,Electronics,953.5,Rohit Mehta,Mumbai,Peripherals,11,87
@@ -20750,7 +20750,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 27955,Camera,North,2193.919921875,2024-08-03,1,Office Supplies,515.97998046875,Priya Singh,Delhi,Imaging,20,56
 27956,Camera,North,2097.28002929688,2026-02-13,4,Office Supplies,356.690002441406,Amit Verma,Mumbai,Imaging,21,57
 27957,Laptop,West,1642.80004882813,2024-03-16,5,Electronics,452.75,Sneha Kapoor,Pune,Computing,22,58
-27958,Printer,North,2027.76000976563,2024-02-23,2,Office Supplies,237.550003051758,Rohit Mehta,Bangalore,Office Devices,23,59
+27958,Printer,North,2025.76000976563,2024-02-23,2,Office Supplies,237.550003051758,Rohit Mehta,Bangalore,Office Devices,23,59
 27959,Printer,West,3086.56005859375,2025-01-04,4,Office Supplies,1020.22998046875,Neha Arora,Hyderabad,Office Devices,24,60
 27962,Headphones,West,1035.44995117188,2025-04-28,3,Electronics,292.950012207031,Amit Verma,Pune,Accessories,7,63
 27963,Smartwatch,West,923.409973144531,2025-08-08,3,Office Supplies,241.119995117188,Sneha Kapoor,Bangalore,Gadgets,8,64
@@ -22953,7 +22953,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 30732,Tablet,West,5358.97998046875,2025-01-29,2,Electronics,1740.05004882813,Rahul Sharma,Pune,Gadgets,17,33
 30733,Monitor,East,742.380004882813,2024-09-20,3,Office Supplies,204.110000610352,Priya Singh,Bangalore,Computing,18,34
 30734,Mobile,West,1566.56005859375,2025-11-23,1,Office Supplies,335.170013427734,Amit Verma,Hyderabad,Gadgets,19,35
-30736,Tablet,East,3308.80004882813,2027-02-15,1,Electronics,726.880004882813,Rohit Mehta,Mumbai,Gadgets,21,37
+30736,Tablet,East,3308.80004882813,2025-02-15,1,Electronics,726.880004882813,Rohit Mehta,Mumbai,Gadgets,21,37
 30737,Tablet,South,2924.48999023438,2024-08-30,2,Electronics,997.140014648438,Neha Arora,Pune,Gadgets,22,38
 30738,Camera,East,5873.56982421875,2025-04-19,3,Office Supplies,1381.86999511719,Rahul Sharma,Bangalore,Imaging,23,39
 30740,Headphones,North,1806.34997558594,2024-10-15,4,Electronics,472.329986572266,Amit Verma,Delhi,Accessories,5,41
@@ -23978,7 +23978,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 32022,Smartwatch,East,2426.4599609375,2024-11-02,3,Office Supplies,392.670013427734,Rahul Sharma,Pune,Gadgets,7,23
 32025,Camera,North,2524.92993164063,2025-11-26,2,Office Supplies,686.909973144531,Sneha Kapoor,Delhi,Imaging,10,26
 32026,Monitor,North,1481.34997558594,2025-04-15,1,Office Supplies,336.850006103516,Rohit Mehta,Mumbai,Computing,11,27
-32027,Keyboard,South,1114.09997558594,2024-09-25,2,Electronics,266.940002441406,Neha Arora,Pune,Peripherals,12,28
+32025,Keyboard,South,1114.09997558594,2024-09-25,2,Electronics,266.940002441406,Neha Arora,Pune,Peripherals,12,28
 32029,Keyboard,West,1967.88000488281,2024-07-12,5,Electronics,235.179992675781,Priya Singh,Hyderabad,Peripherals,14,30
 32030,Monitor,Central,1596.5,2025-09-29,1,Office Supplies,543.219970703125,Amit Verma,Delhi,Computing,15,31
 32031,Tablet,Central,3978.60009765625,2025-06-23,4,Electronics,1030.4599609375,Sneha Kapoor,Mumbai,Gadgets,16,32
@@ -24454,7 +24454,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 32609,Mouse,West,4806.1298828125,2025-11-01,2,Electronics,1232.7099609375,Neha Arora,Hyderabad,Peripherals,14,10
 32610,Monitor,North,3946.330078125,2024-10-26,1,Office Supplies,946.940002441406,Rahul Sharma,Delhi,Computing,15,11
 32611,Laptop,Central,485.829986572266,2024-05-22,1,Electronics,139.520004272461,Priya Singh,Mumbai,Computing,16,12
-32612,Tablet,East,731.159973144531,2027-01-12,1,Electronics,100.019996643066,Amit Verma,Pune,Gadgets,17,13
+32612,Tablet,East,731.159973144531,2025-01-12,1,Electronics,100.019996643066,Amit Verma,Pune,Gadgets,17,13
 32613,Headphones,West,3573.7900390625,2025-04-29,3,Electronics,1240.42004394531,Sneha Kapoor,Bangalore,Accessories,18,14
 32615,Camera,North,685.099975585938,2025-05-20,5,Office Supplies,233.940002441406,Neha Arora,Delhi,Imaging,20,16
 32616,Printer,East,1587.21997070313,2024-07-08,3,Office Supplies,530.510009765625,Rahul Sharma,Mumbai,Office Devices,21,17
@@ -27632,7 +27632,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 36516,Headphones,West,1971.03002929688,2024-10-24,1,Electronics,620.25,Rahul Sharma,Mumbai,Accessories,21,17
 36517,Keyboard,West,3479.36010742188,2024-08-15,1,Electronics,1023.21002197266,Priya Singh,Pune,Peripherals,22,18
 36518,Mobile,South,5987.68994140625,2025-12-21,3,Office Supplies,1872.15002441406,Amit Verma,Bangalore,Gadgets,23,19
-36519,Laptop,East,1018.5,2027-01-29,3,Electronics,306.279998779297,Sneha Kapoor,Hyderabad,Computing,24,20
+36519,Laptop,East,1018.5,2025-01-29,3,Electronics,306.279998779297,Sneha Kapoor,Hyderabad,Computing,24,20
 36521,Laptop,South,4371.3701171875,2026-05-15,1,Electronics,988.289978027344,Neha Arora,Mumbai,Computing,6,22
 36522,Laptop,South,2320.75,2025-03-10,3,Electronics,253.029998779297,Rahul Sharma,Pune,Computing,7,23
 36523,Mobile,South,2790.2900390625,2024-06-21,5,Office Supplies,538.239990234375,Priya Singh,Bangalore,Gadgets,8,24
@@ -28263,7 +28263,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 37308,Keyboard,East,1399.06005859375,2024-07-26,1,Electronics,196.759994506836,Rahul Sharma,Bangalore,Peripherals,13,9
 37309,Keyboard,West,2290.57006835938,2024-07-03,2,Electronics,673.609985351563,Priya Singh,Hyderabad,Peripherals,14,10
 37310,Smartwatch,East,2523.18994140625,2025-03-08,1,Office Supplies,715.570007324219,Amit Verma,Delhi,Gadgets,15,11
-37311,Tablet,West,2954.09008789063,2027-02-06,4,Electronics,327.489990234375,Sneha Kapoor,Mumbai,Gadgets,16,12
+37311,Tablet,West,2954.09008789063,2025-02-06,4,Electronics,327.489990234375,Sneha Kapoor,Mumbai,Gadgets,16,12
 37312,Mouse,North,-3767.7900390625,2024-07-09,3,Electronics,-982.119995117188,Rohit Mehta,Pune,Peripherals,17,13
 37313,Mobile,East,1509.69995117188,2024-09-21,3,Office Supplies,279.420013427734,Neha Arora,Bangalore,Gadgets,18,14
 37314,Mouse,Central,1811.55004882813,2024-04-12,5,Electronics,333.239990234375,Rahul Sharma,Hyderabad,Peripherals,19,15
@@ -30783,7 +30783,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 40485,Mouse,West,2738.02001953125,2025-02-22,1,Electronics,917.489990234375,Sneha Kapoor,Delhi,Peripherals,10,86
 40486,Tablet,Central,2615.61010742188,2024-06-04,3,Electronics,527.820007324219,Rohit Mehta,Mumbai,Gadgets,11,87
 40487,Camera,South,2769.919921875,2024-01-11,1,Office Supplies,836.77001953125,Neha Arora,Pune,Imaging,12,88
-40488,Tablet,East,930.539978027344,2027-02-08,3,Electronics,215.139999389648,Rahul Sharma,Bangalore,Gadgets,13,89
+40488,Tablet,East,930.539978027344,2025-02-08,3,Electronics,215.139999389648,Rahul Sharma,Bangalore,Gadgets,13,89
 40491,Tablet,West,3803.19995117188,2025-07-28,4,Electronics,1261.06005859375,Sneha Kapoor,Mumbai,Gadgets,16,92
 40492,Smartwatch,North,3646.92993164063,2025-08-06,4,Office Supplies,644.880004882813,Rohit Mehta,Pune,Gadgets,17,93
 40493,Smartwatch,East,2463.44995117188,2025-03-11,2,Office Supplies,720.179992675781,Neha Arora,Bangalore,Gadgets,18,94
@@ -32024,7 +32024,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 42024,Camera,North,266.920013427734,2025-03-30,5,Office Supplies,92.379997253418,Rahul Sharma,Hyderabad,Imaging,9,25
 42025,Printer,North,2073.1201171875,2024-11-22,5,Office Supplies,367.309997558594,Priya Singh,Delhi,Office Devices,10,26
 42026,Mouse,South,1930.31005859375,2024-08-24,1,Electronics,455.820007324219,Amit Verma,Mumbai,Peripherals,11,27
-42027,Monitor,West,2694.18994140625,2025-01-04,3,Office Supplies,918.669982910156,Sneha Kapoor,Pune,Computing,12,28
+42025,Monitor,West,2694.18994140625,2025-01-04,3,Office Supplies,918.669982910156,Sneha Kapoor,Pune,Computing,12,28
 42028,Headphones,Central,2913.2900390625,2024-06-15,3,Electronics,506.779998779297,Rohit Mehta,Bangalore,Accessories,13,29
 42029,Printer,East,2495.03002929688,2026-03-28,2,Office Supplies,728.02001953125,Neha Arora,Hyderabad,Office Devices,14,30
 42030,Keyboard,West,1386.58996582031,2025-03-29,1,Electronics,235.940002441406,Rahul Sharma,Delhi,Peripherals,15,31
@@ -34288,7 +34288,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 44835,Printer,North,2475.65991210938,2025-10-06,2,Office Supplies,778.460021972656,Sneha Kapoor,Delhi,Office Devices,20,36
 44837,Headphones,South,3186.9599609375,2026-02-13,5,Electronics,455.119995117188,Neha Arora,Pune,Accessories,22,38
 44839,Camera,North,2092.93994140625,2024-12-24,2,Office Supplies,417.609985351563,Priya Singh,Hyderabad,Imaging,24,40
-44841,Laptop,North,2027.81994628906,2024-10-23,3,Electronics,643.070007324219,Sneha Kapoor,Mumbai,Computing,6,42
+44841,Laptop,North,2025.81994628906,2024-10-23,3,Electronics,643.070007324219,Sneha Kapoor,Mumbai,Computing,6,42
 44843,Monitor,South,2757.17993164063,2026-05-01,2,Office Supplies,466.809997558594,Neha Arora,Bangalore,Computing,8,44
 44844,Laptop,North,161.990005493164,2024-08-23,5,Electronics,48.6100006103516,Rahul Sharma,Hyderabad,Computing,9,45
 44845,Keyboard,South,3384.76000976563,2025-08-30,4,Electronics,1101.13000488281,Priya Singh,Delhi,Peripherals,10,46
@@ -34645,7 +34645,7 @@ id,product_name,region,sales_amount,date,quantity,category,profit,customer_name,
 45293,Tablet,East,3587.21997070313,2024-12-06,5,Electronics,956.650024414063,Neha Arora,Bangalore,Gadgets,18,94
 45294,Smartwatch,East,3238.39990234375,2024-12-15,2,Office Supplies,631.169982910156,Rahul Sharma,Hyderabad,Gadgets,19,95
 45295,Mouse,West,3636.39990234375,2026-04-20,5,Electronics,490.5,Priya Singh,Delhi,Peripherals,20,96
-45296,Printer,East,1845.38000488281,2027-02-16,3,Office Supplies,488.179992675781,Amit Verma,Mumbai,Office Devices,21,97
+45296,Printer,East,1845.38000488281,2025-02-16,3,Office Supplies,488.179992675781,Amit Verma,Mumbai,Office Devices,21,97
 45297,Laptop,East,1789.35998535156,2026-06-05,2,Electronics,295.709991455078,Sneha Kapoor,Pune,Computing,22,98
 45298,Laptop,West,2181.8701171875,2024-12-26,4,Electronics,548.820007324219,Rohit Mehta,Bangalore,Computing,23,99
 45299,Tablet,West,847.710021972656,2025-07-30,4,Electronics,285.470001220703,Neha Arora,Hyderabad,Gadgets,24,100
